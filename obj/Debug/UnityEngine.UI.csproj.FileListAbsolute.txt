@@ -1,0 +1,2 @@
+/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/obj/Debug/UnityEngine.UI.csproj.AssemblyReference.cache
+/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/obj/Debug/UnityEngine.UI.csproj.CoreCompileInputs.cache
