@@ -7,6 +7,12 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D playerRb;
     public float speed = 5f;
     public float jumpSpeed = 10f;
+
+    //Variables for GroundCheck (Stops player from double jumping)
+    public Transform groundCheck;
+    public float groundCheckRadius;
+    public LayerMask groundLayer;
+    private bool isTouchingGround;
     // Start is called before the first frame update
     void Start()
     {
