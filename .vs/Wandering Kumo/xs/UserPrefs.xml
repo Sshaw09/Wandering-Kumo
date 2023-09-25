@@ -1,28 +1,28 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{645CCC6A-BD58-912D-E24B-33C300C9AC5F}|">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e2e54dc7-387a-43ab-8dd1-39cdaf929907" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dialogue System/Scripts/DialogueTrigger.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eb7b6415-4aaa-436f-86fa-7d1c913bc739" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Art/PreMade/BigManJD/readme.txt">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" />
-      <File FileName="Assets/Script/CameraFollow.cs" Line="16" Column="111" />
-      <File FileName="Assets/Dialogue System/Scripts/DialogueTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/CameraFollow.cs" />
+      <File FileName="Assets/Art/PreMade/BigManJD/readme.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Wandering Kumo" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Dialogue System" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="DialogueTrigger.cs" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Art" expanded="True">
+                <Node name="PreMade" expanded="True">
+                  <Node name="BigManJD" expanded="True">
+                    <Node name="readme.txt" selected="True" />
                   </Node>
                 </Node>
-                <Node name="Script" expanded="True" />
               </Node>
+              <Node name="Script" expanded="True" />
             </Node>
           </Node>
         </State>
