@@ -1,0 +1,1959 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.1 (Build 22G90)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59193
+Successfully changed project path to: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo
+/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Assets
+GfxDevice: creating device client; threaded=0
+2023-09-27 08:31:46.765 Unity[18454:650309] (null) preferred device: Apple M1 Pro (high power)
+2023-09-27 08:31:46.765 Unity[18454:650309] Metal devices available: 1
+2023-09-27 08:31:46.765 Unity[18454:650309] 0: Apple M1 Pro (high power)
+2023-09-27 08:31:46.765 Unity[18454:650309] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56454
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001765 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2228ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1930ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1088ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (814ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.002440 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.002707 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+2023-09-27 08:31:51.373 Unity[18454:650309] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa395d1b860 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-09-27 08:31:51.376 Unity[18454:650309] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa39597ab90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 91.8 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 2.783125 ms (FindLiveObjects: 0.128125 ms CreateObjectMapping: 0.043667 ms MarkObjects: 2.147625 ms  DeleteObjects: 0.462708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_79.asset
+  artifactKey: Guid(aca76a679f5ab48a2b34ae30dd7d4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_79.asset using Guid(aca76a679f5ab48a2b34ae30dd7d4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58443dd3d2caf8aab8ae7662d239a68') in 0.829752 seconds 
+  Import took 0.835554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_92.asset
+  artifactKey: Guid(cd58301bcbb57438282352904826aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_92.asset using Guid(cd58301bcbb57438282352904826aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acbbf09094f852313bde2a9dd4a2f01') in 0.010541 seconds 
+  Import took 0.013166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_140.asset
+  artifactKey: Guid(7b0133f76c1004340997a312e45eee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_140.asset using Guid(7b0133f76c1004340997a312e45eee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601a8bc1314be11f7841a6f8d107eaf0') in 0.014153 seconds 
+  Import took 0.017585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_103.asset
+  artifactKey: Guid(75db469a559ca435e9c8c585b5ba8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_103.asset using Guid(75db469a559ca435e9c8c585b5ba8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a6b098e85547d867fc0c77d28dbc70') in 0.012899 seconds 
+  Import took 0.018766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_194.asset
+  artifactKey: Guid(0349fe04c24e84b8dbe56f31b0aaa521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_194.asset using Guid(0349fe04c24e84b8dbe56f31b0aaa521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97083db9442db6b90bd9304004195eeb') in 0.014711 seconds 
+  Import took 0.021406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_180.asset
+  artifactKey: Guid(0b8692517a3d8487ea58ac97fb81097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_180.asset using Guid(0b8692517a3d8487ea58ac97fb81097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591feebb7f8a524a0f1982a620fa352d') in 0.008190 seconds 
+  Import took 0.013612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_67.asset
+  artifactKey: Guid(ed7c30336e38e43339446362286f48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_67.asset using Guid(ed7c30336e38e43339446362286f48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2475a267e347989cd7f9c7bb459d079') in 0.008035 seconds 
+  Import took 0.012931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_223.asset
+  artifactKey: Guid(15c0fad4d1d304627ab00c98fd33cc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_223.asset using Guid(15c0fad4d1d304627ab00c98fd33cc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9224780fff1039435c1c7f9616f199bd') in 0.008642 seconds 
+  Import took 0.015314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_171.asset
+  artifactKey: Guid(9b04e4622d83d4248ab5c26c5c456aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_171.asset using Guid(9b04e4622d83d4248ab5c26c5c456aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d055992c43b8a8450797f6671aa8f4') in 0.013129 seconds 
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_99.asset
+  artifactKey: Guid(dc19c3a874e4442229820f2d3283ebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_99.asset using Guid(dc19c3a874e4442229820f2d3283ebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1dcae04f4964f69563867b5eaea4cd') in 0.006888 seconds 
+  Import took 0.009848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_85.asset
+  artifactKey: Guid(7e641312046cd4d35ab488ba0ddb2997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_85.asset using Guid(7e641312046cd4d35ab488ba0ddb2997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6547a0720d2d8dfd9832638551b7e0') in 0.006771 seconds 
+  Import took 0.009196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_134.asset
+  artifactKey: Guid(95a426224357944ad928b26717cf5cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_134.asset using Guid(95a426224357944ad928b26717cf5cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59fb5e6a5164cf59742183bd33178a4') in 0.006522 seconds 
+  Import took 0.009566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_73.asset
+  artifactKey: Guid(ccb861b42164c4002a9b703c7f0f63a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_73.asset using Guid(ccb861b42164c4002a9b703c7f0f63a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06adcbe281bde865b9a63846301d3dfd') in 0.006165 seconds 
+  Import took 0.008781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_57.asset
+  artifactKey: Guid(f3f9731c65f1c4a2cb54aa1e582d2542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_57.asset using Guid(f3f9731c65f1c4a2cb54aa1e582d2542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9df5089c44aa64ec32ac5f5be4fa7a') in 0.010240 seconds 
+  Import took 0.013107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_124.asset
+  artifactKey: Guid(e4a7038d15dc449fb9124beaf62fe906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_124.asset using Guid(e4a7038d15dc449fb9124beaf62fe906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc12ed555303b191dd2278c580637331') in 0.007018 seconds 
+  Import took 0.009990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_51.asset
+  artifactKey: Guid(5b58f11ea74a34c7fa4f1c31970eba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_51.asset using Guid(5b58f11ea74a34c7fa4f1c31970eba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af0af709f475eb39fae4fd2b95b00a3') in 0.006439 seconds 
+  Import took 0.009344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_95.asset
+  artifactKey: Guid(7c14a3d6e21e94cb2bb3ee3ec29bb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_95.asset using Guid(7c14a3d6e21e94cb2bb3ee3ec29bb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215061e4d11fccc162bde028801df2a0') in 0.007097 seconds 
+  Import took 0.009942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_183.asset
+  artifactKey: Guid(33a966252608945e98df4aefb656fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_183.asset using Guid(33a966252608945e98df4aefb656fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5f8b5cf9001f0b4d674feb267b9fbf') in 0.007326 seconds 
+  Import took 0.009989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_222.asset
+  artifactKey: Guid(2967ca97228d847a48373bb50bdc6d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_222.asset using Guid(2967ca97228d847a48373bb50bdc6d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8813db1c21cff8aaf2f2789e32aaf31') in 0.005986 seconds 
+  Import took 0.008758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_123.asset
+  artifactKey: Guid(65ee03c7e416e4f3e84cc6d7bf7e55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_123.asset using Guid(65ee03c7e416e4f3e84cc6d7bf7e55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27fb4416ca9a2a3cf29c6660bfc62d2') in 0.006145 seconds 
+  Import took 0.008930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_184.asset
+  artifactKey: Guid(b479fb9b7918c4f8ab4fcc857f54fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_184.asset using Guid(b479fb9b7918c4f8ab4fcc857f54fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c23ea636374ad65f2b9cdd15bf9ef8c') in 0.006690 seconds 
+  Import took 0.009979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_135.asset
+  artifactKey: Guid(cd2026d7f89424068bad52b627cb10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_135.asset using Guid(cd2026d7f89424068bad52b627cb10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23f1f58a36fec4c56f77bb75c84c941') in 0.006452 seconds 
+  Import took 0.009181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_91.asset
+  artifactKey: Guid(9ba5570ea3f7d4a6f8c87339a52ceb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_91.asset using Guid(9ba5570ea3f7d4a6f8c87339a52ceb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58a61b98897a57bccff07f93c314984') in 0.005928 seconds 
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_156.asset
+  artifactKey: Guid(48ad502c9457f4a5ab44322506901a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_156.asset using Guid(48ad502c9457f4a5ab44322506901a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ae9b00cff59b133b4fe063fea9a770') in 0.006516 seconds 
+  Import took 0.009753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_199.asset
+  artifactKey: Guid(1ac58d6b046b54d07bf34031ddf5fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_199.asset using Guid(1ac58d6b046b54d07bf34031ddf5fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa573441ccb952c11b8facca9d130e0c') in 0.005980 seconds 
+  Import took 0.009018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_59.asset
+  artifactKey: Guid(7a38ef3ca741e45b18e302c0bb96ea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_59.asset using Guid(7a38ef3ca741e45b18e302c0bb96ea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9876afe06fc618a6faebd606a45844f2') in 0.006235 seconds 
+  Import took 0.009163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_75.asset
+  artifactKey: Guid(ec7d32ae2576b41f480c1a94139ea399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_75.asset using Guid(ec7d32ae2576b41f480c1a94139ea399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef8324ad5c2cd44925b5c3d23946f1a') in 0.006923 seconds 
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_94.asset
+  artifactKey: Guid(952ad58332d434152aa8534fe7bfe335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_94.asset using Guid(952ad58332d434152aa8534fe7bfe335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e1432ab181d73a0040053519ba06aa') in 0.006857 seconds 
+  Import took 0.010056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_165.asset
+  artifactKey: Guid(c1ea17479a6de42c69ba2ec37c443bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_165.asset using Guid(c1ea17479a6de42c69ba2ec37c443bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5267d6c86f6ed9b65d4fe8b8d7ea84e') in 0.006354 seconds 
+  Import took 0.008885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_211.asset
+  artifactKey: Guid(577b976d6deda40dbba846dcbccd6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_211.asset using Guid(577b976d6deda40dbba846dcbccd6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03339975f2b7c83ec8993f7f8dbfb899') in 0.006494 seconds 
+  Import took 0.009882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_214.asset
+  artifactKey: Guid(b51a7b4209ca54409b4ae9707b0e9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_214.asset using Guid(b51a7b4209ca54409b4ae9707b0e9b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5ff6100394c77f4d3938da33a3f586') in 0.006334 seconds 
+  Import took 0.009103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_101.asset
+  artifactKey: Guid(9963931464d2b410fb288f5d781128b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_101.asset using Guid(9963931464d2b410fb288f5d781128b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6371721fb030e799cb5b6702a2256760') in 0.006298 seconds 
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_157.asset
+  artifactKey: Guid(b0bb465d973fb4569b3e1b2e7cd40d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_157.asset using Guid(b0bb465d973fb4569b3e1b2e7cd40d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2eca897d5818e704808dd0b257ddf2') in 0.006164 seconds 
+  Import took 0.008851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_129.asset
+  artifactKey: Guid(466e5092cae884541859e0817f40e91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_129.asset using Guid(466e5092cae884541859e0817f40e91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3aab61d1b2d3017ed9eca16446ba3b') in 0.006186 seconds 
+  Import took 0.009028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_149.asset
+  artifactKey: Guid(da3df46a5672a4a63acd256dce92438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_149.asset using Guid(da3df46a5672a4a63acd256dce92438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644a75b27a8b669c98c386568c500652') in 0.005967 seconds 
+  Import took 0.009104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_50.asset
+  artifactKey: Guid(7acb4c7d8e23546c4921ecf5978c42ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_50.asset using Guid(7acb4c7d8e23546c4921ecf5978c42ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8afe5dc2289fa09c410ef09022c6ad') in 0.006707 seconds 
+  Import took 0.009625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_205.asset
+  artifactKey: Guid(fba48e542ac2247e1aa03229430fb149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_205.asset using Guid(fba48e542ac2247e1aa03229430fb149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdcb509765d9bbe581c68b2e7806c55') in 0.006208 seconds 
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_137.asset
+  artifactKey: Guid(37fa74bc3396542338d4d52bd3141c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_137.asset using Guid(37fa74bc3396542338d4d52bd3141c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c56fe73c15c981636e2dfc0f3dc48b4') in 0.006164 seconds 
+  Import took 0.009074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_63.asset
+  artifactKey: Guid(1367e77dfe1154e0d8bb80cc6a750e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_63.asset using Guid(1367e77dfe1154e0d8bb80cc6a750e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f207d2199740b50e1500fb4c6556a2e9') in 0.007224 seconds 
+  Import took 0.009819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_44.asset
+  artifactKey: Guid(2f6ca60b19b244544ade13c94506ca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_44.asset using Guid(2f6ca60b19b244544ade13c94506ca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1eace641154c4a121c0cc37950159e') in 0.005887 seconds 
+  Import took 0.008752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_72.asset
+  artifactKey: Guid(e50e9ddd760774b0b9a6ce7683944e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_72.asset using Guid(e50e9ddd760774b0b9a6ce7683944e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ac8294001a362608387f4c4d8420f') in 0.006814 seconds 
+  Import took 0.009396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_217.asset
+  artifactKey: Guid(438eb42098c7f42d0b13b4900025f1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_217.asset using Guid(438eb42098c7f42d0b13b4900025f1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd57317101094e1ea4cde5466f210e6') in 0.006552 seconds 
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_108.asset
+  artifactKey: Guid(daed5a48813c347a5ad9bc91c16a6b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_108.asset using Guid(daed5a48813c347a5ad9bc91c16a6b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36359bc1900deed217907bb9d77854dc') in 0.006089 seconds 
+  Import took 0.008746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_148.asset
+  artifactKey: Guid(db1e77257b47b4ee183c6ccfafec96df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_148.asset using Guid(db1e77257b47b4ee183c6ccfafec96df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59147d84b157059225d3e35d53cd386') in 0.005939 seconds 
+  Import took 0.009357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_87.asset
+  artifactKey: Guid(6000651e12ab9418ab5ed0cd9ef784b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_87.asset using Guid(6000651e12ab9418ab5ed0cd9ef784b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8584840f5d4c8827a12013c1ac1e63d3') in 0.006126 seconds 
+  Import took 0.008790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_170.asset
+  artifactKey: Guid(0dc31a305264744d7958ffaa4fd66d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_170.asset using Guid(0dc31a305264744d7958ffaa4fd66d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b9766859059d7211e67de38db40b57') in 0.006570 seconds 
+  Import took 0.010031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_113.asset
+  artifactKey: Guid(4e14f45fd4d9f451cab412a3df5ad9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_113.asset using Guid(4e14f45fd4d9f451cab412a3df5ad9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f653a574ace726257eb56b6e1ff1188e') in 0.006157 seconds 
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_46.asset
+  artifactKey: Guid(45cad53d307684e19a8c65db3a2404fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_46.asset using Guid(45cad53d307684e19a8c65db3a2404fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c02283da21a6171ed3a5850aee4c3c') in 0.006556 seconds 
+  Import took 0.009744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_181.asset
+  artifactKey: Guid(186061d5577724881827f3226e579c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_181.asset using Guid(186061d5577724881827f3226e579c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ed1f2fce37b9260eaa12d1a4bbd8b8') in 0.006298 seconds 
+  Import took 0.008999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_62.asset
+  artifactKey: Guid(9796a18d6521c405faaf3505329b7945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_62.asset using Guid(9796a18d6521c405faaf3505329b7945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0c8b63ba41cd756389b78d6c85a091') in 0.006711 seconds 
+  Import took 0.009509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_122.asset
+  artifactKey: Guid(fbb8590bc701b4ff586d87ae0450811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_122.asset using Guid(fbb8590bc701b4ff586d87ae0450811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94731686b946983c4e3b012ddc5a151e') in 0.007072 seconds 
+  Import took 0.009616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_132.asset
+  artifactKey: Guid(20594926d9f6247cabed7191824418d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_132.asset using Guid(20594926d9f6247cabed7191824418d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c831090e9c0b150fb791df08e5060b81') in 0.006111 seconds 
+  Import took 0.008776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_161.asset
+  artifactKey: Guid(a2bd82bab0e764f36922f542a071d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_161.asset using Guid(a2bd82bab0e764f36922f542a071d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa21e08caf70d2fbbe0e644d4490d7d') in 0.006110 seconds 
+  Import took 0.009078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_128.asset
+  artifactKey: Guid(447b14581965f4a61af1809c059b49ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_128.asset using Guid(447b14581965f4a61af1809c059b49ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64c119d288fa014d43b4ea18dbc9201') in 0.006207 seconds 
+  Import took 0.009169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_69.asset
+  artifactKey: Guid(d8c2f0ef4f95e41b7a31fa2be0df1a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_69.asset using Guid(d8c2f0ef4f95e41b7a31fa2be0df1a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891990e89c5a6bc512bfe08610baa2dd') in 0.006910 seconds 
+  Import took 0.009778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_178.asset
+  artifactKey: Guid(cc7d4866ad7da407c8c2f614eb785f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_178.asset using Guid(cc7d4866ad7da407c8c2f614eb785f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06988ab0044ec4c07e4d61cbbc262aa2') in 0.006539 seconds 
+  Import took 0.009511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_162.asset
+  artifactKey: Guid(5f208ee1608df4a5b81aaee9d3245ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_162.asset using Guid(5f208ee1608df4a5b81aaee9d3245ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe5e5fabd29d0f46df157e89ffb6bcb') in 0.007713 seconds 
+  Import took 0.010935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_193.asset
+  artifactKey: Guid(8baf8ba0ec7654c29ba8b6b6340c36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_193.asset using Guid(8baf8ba0ec7654c29ba8b6b6340c36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292d6e138d01ef40003783dc3ea43805') in 0.006413 seconds 
+  Import took 0.009363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_106.asset
+  artifactKey: Guid(f4319e37d63e743799fa6a7102f9c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_106.asset using Guid(f4319e37d63e743799fa6a7102f9c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d335baee55494cec02a1a2ef684675d') in 0.006142 seconds 
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_209.asset
+  artifactKey: Guid(c255052e1875c426da1afaaa7766d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_209.asset using Guid(c255052e1875c426da1afaaa7766d714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea15d28fdb54178dd5483f256b4c951') in 0.006784 seconds 
+  Import took 0.009454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_80.asset
+  artifactKey: Guid(672973e27542c4e95b7542d1c9714173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_80.asset using Guid(672973e27542c4e95b7542d1c9714173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94602e8456fc643c3e8cb0bed59ff978') in 0.006170 seconds 
+  Import took 0.009462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_102.asset
+  artifactKey: Guid(dd63892d7b54b483d9bcd2ae3497d368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_102.asset using Guid(dd63892d7b54b483d9bcd2ae3497d368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67bd63531ef6923421be79e162bccfc') in 0.008137 seconds 
+  Import took 0.011147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_179.asset
+  artifactKey: Guid(9ad6d88285f3b41f5830461e4162de48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_179.asset using Guid(9ad6d88285f3b41f5830461e4162de48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f34438e686998728067f34e4c412869') in 0.007142 seconds 
+  Import took 0.009669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_68.asset
+  artifactKey: Guid(19222a2511eb64daabf8b149059a9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_68.asset using Guid(19222a2511eb64daabf8b149059a9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac380a7a943a34b5044530dd253c5935') in 0.006217 seconds 
+  Import took 0.009320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_164.asset
+  artifactKey: Guid(c4451ce86688e4187a954ca806c6cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_164.asset using Guid(c4451ce86688e4187a954ca806c6cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f1061f46a6650c7f53a13e3eff99d7') in 0.006332 seconds 
+  Import took 0.009131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_139.asset
+  artifactKey: Guid(7aa8689f40f094669a7bb217a10d13d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_139.asset using Guid(7aa8689f40f094669a7bb217a10d13d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e78480300af51b25e37a8fa7db094a') in 0.006158 seconds 
+  Import took 0.009100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_166.asset
+  artifactKey: Guid(cb177cedf841f4393a9a993f62a9633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_166.asset using Guid(cb177cedf841f4393a9a993f62a9633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4198c7ea4a370f4a61e6391c8de3a') in 0.005839 seconds 
+  Import took 0.008697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_203.asset
+  artifactKey: Guid(cafe9ef7616c645bba11070c95a268c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_203.asset using Guid(cafe9ef7616c645bba11070c95a268c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196c6ec97460eff2ec836a2acfff30c3') in 0.006422 seconds 
+  Import took 0.009527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_45.asset
+  artifactKey: Guid(587452dda61634888bb01197cba4e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_45.asset using Guid(587452dda61634888bb01197cba4e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42cb614415b8c8e8301236295d5e926') in 0.006561 seconds 
+  Import took 0.009345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_82.asset
+  artifactKey: Guid(0ef7b07e9fd07461587857a3b5adc1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_82.asset using Guid(0ef7b07e9fd07461587857a3b5adc1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c807ca802c466e7131a15763c712d178') in 0.006403 seconds 
+  Import took 0.009570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_114.asset
+  artifactKey: Guid(804a379c1ec744164a0d5e492fd4219a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_114.asset using Guid(804a379c1ec744164a0d5e492fd4219a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d9f800ece797294d00aa35bfc52a5a') in 0.006381 seconds 
+  Import took 0.009302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_90.asset
+  artifactKey: Guid(16a27a8aae789478eb87be758f20a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_90.asset using Guid(16a27a8aae789478eb87be758f20a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8975c205632c0fa88c668efbd155d2cf') in 0.005916 seconds 
+  Import took 0.008740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_143.asset
+  artifactKey: Guid(e0dce1ffe0ff444348f7b11229f2ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_143.asset using Guid(e0dce1ffe0ff444348f7b11229f2ed07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9f4f97871fce99f0c6f63a8ed09115') in 0.006186 seconds 
+  Import took 0.009100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_65.asset
+  artifactKey: Guid(1b61caaa9dccc4586b6aeace3b3d46ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_65.asset using Guid(1b61caaa9dccc4586b6aeace3b3d46ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0baf7782ab1c0462d7315080d6b72be') in 0.006713 seconds 
+  Import took 0.010015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_78.asset
+  artifactKey: Guid(a3c39da957fb24e5b8474ad4166a58ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_78.asset using Guid(a3c39da957fb24e5b8474ad4166a58ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bbd79030acfac4d11197a5bd0499cc') in 0.006456 seconds 
+  Import took 0.009610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_144.asset
+  artifactKey: Guid(87633d2b5cfb742eab0b519805a0e047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_144.asset using Guid(87633d2b5cfb742eab0b519805a0e047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcf58b0b333f52699c245bf0019fc5c') in 0.005944 seconds 
+  Import took 0.009596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_176.asset
+  artifactKey: Guid(d5437f4289b004fa184229ed48f9eaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_176.asset using Guid(d5437f4289b004fa184229ed48f9eaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e12367ca07b846d7fe05d877c6cc9d') in 0.005967 seconds 
+  Import took 0.008693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_146.asset
+  artifactKey: Guid(69e6ed03833d74b0a877c39011347e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_146.asset using Guid(69e6ed03833d74b0a877c39011347e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d521585aa26ade9db0ecb18415877f') in 0.006668 seconds 
+  Import took 0.009590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_206.asset
+  artifactKey: Guid(4b2064b3cef6b47a79958c35c2af2d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_206.asset using Guid(4b2064b3cef6b47a79958c35c2af2d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df1203b6413a4b284571190a2133347') in 0.005983 seconds 
+  Import took 0.008768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_169.asset
+  artifactKey: Guid(4d97b9a4c5bbf48668f14575fd4e9a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_169.asset using Guid(4d97b9a4c5bbf48668f14575fd4e9a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd68f2e9dbefe2bd14f3157f1390273') in 0.006256 seconds 
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_115.asset
+  artifactKey: Guid(e7d941970487e40439c125e907e3a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_115.asset using Guid(e7d941970487e40439c125e907e3a430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34db56fa5cc9b2f7ab37e5a143299c8d') in 0.006373 seconds 
+  Import took 0.009539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_64.asset
+  artifactKey: Guid(afe63e7fb77a34eb7ab0bb1d7797c79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_64.asset using Guid(afe63e7fb77a34eb7ab0bb1d7797c79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d46d27dd87bec755ff83b101f206c23') in 0.006559 seconds 
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_93.asset
+  artifactKey: Guid(7864b9088985c46ea855fc667a02b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_93.asset using Guid(7864b9088985c46ea855fc667a02b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a72650917a57df2301c5b2d2a0fa56') in 0.006065 seconds 
+  Import took 0.009208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005036 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_47.asset
+  artifactKey: Guid(9ef668a6ac5d749bf92d653d7a856bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_47.asset using Guid(9ef668a6ac5d749bf92d653d7a856bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ff121d63be7ea50b838435dc791ee9') in 0.006124 seconds 
+  Import took 0.008962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_61.asset
+  artifactKey: Guid(646fdba56eddd4b5e9f9d95d576d4daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_61.asset using Guid(646fdba56eddd4b5e9f9d95d576d4daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbf712c753fa68659047a50bcd19ebb') in 0.007099 seconds 
+  Import took 0.009938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_138.asset
+  artifactKey: Guid(7187740174d1c4d0b9c3853d3756b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_138.asset using Guid(7187740174d1c4d0b9c3853d3756b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94a9d48fdf503dbb66865c57331afb1') in 0.006536 seconds 
+  Import took 0.010571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_212.asset
+  artifactKey: Guid(425ff5201b85947c0a66fe95a6c7fbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_212.asset using Guid(425ff5201b85947c0a66fe95a6c7fbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4843d5c42f25a8554bb61419dbb45a') in 0.006489 seconds 
+  Import took 0.009733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_153.asset
+  artifactKey: Guid(657309a5f35e84ccab4842d554f09c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_153.asset using Guid(657309a5f35e84ccab4842d554f09c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b4a5591081eaaecb7d92246c2f156a') in 0.006557 seconds 
+  Import took 0.010096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_83.asset
+  artifactKey: Guid(c0d102df16ae24107ba361c78184337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_83.asset using Guid(c0d102df16ae24107ba361c78184337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b14c161b36c9a00d679f2e88d9da0d') in 0.006075 seconds 
+  Import took 0.008577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_52.asset
+  artifactKey: Guid(2708430c73ff743418fe5dbaa869e3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_52.asset using Guid(2708430c73ff743418fe5dbaa869e3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1d244deeedaafaefe056f66d1ec97b') in 0.006289 seconds 
+  Import took 0.009110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_136.asset
+  artifactKey: Guid(e2bd46f63787c43e4b874210175545ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_136.asset using Guid(e2bd46f63787c43e4b874210175545ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc82f3d3580ac5b31e082ad63dc0fc4') in 0.006448 seconds 
+  Import took 0.009256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_192.asset
+  artifactKey: Guid(0d453a7fbcbf9480cb735a8245969dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_192.asset using Guid(0d453a7fbcbf9480cb735a8245969dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9c2bd3175e09c22a65e00e304200c1') in 0.006517 seconds 
+  Import took 0.009444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_86.asset
+  artifactKey: Guid(1bafea528b6e14b0e8df6c95c23c394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_86.asset using Guid(1bafea528b6e14b0e8df6c95c23c394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8549528aea31726c4ca2f7b8080541c') in 0.005939 seconds 
+  Import took 0.008849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_118.asset
+  artifactKey: Guid(3c2ea4499bb0e4e32a5e184a0ade6c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_118.asset using Guid(3c2ea4499bb0e4e32a5e184a0ade6c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0df865d61a3420c58fd6990c0f4e01') in 0.006630 seconds 
+  Import took 0.009370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_98.asset
+  artifactKey: Guid(dbbd31067922e457dad445f8a6876d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_98.asset using Guid(dbbd31067922e457dad445f8a6876d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e3a99905ad1a998788e12624bfb337') in 0.006762 seconds 
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_112.asset
+  artifactKey: Guid(de6c9015359f14c999d5db99d91cc0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_112.asset using Guid(de6c9015359f14c999d5db99d91cc0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd63bb40d9adce11f3a516aae53b39e') in 0.006459 seconds 
+  Import took 0.009764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_49.asset
+  artifactKey: Guid(2238a34f626634eb28ecc3e24a6dfba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_49.asset using Guid(2238a34f626634eb28ecc3e24a6dfba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5f747482b89fc773c644e983c9ea83') in 0.006250 seconds 
+  Import took 0.009704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_216.asset
+  artifactKey: Guid(6bfde5827f1aa47ea9b8888ea193b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_216.asset using Guid(6bfde5827f1aa47ea9b8888ea193b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae7481bd3750d4dc79c9052ed43a369') in 0.006391 seconds 
+  Import took 0.009564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_71.asset
+  artifactKey: Guid(37c432ba4d54b446eb25132e6e3026cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_71.asset using Guid(37c432ba4d54b446eb25132e6e3026cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d22a6f41b2788b4cae63c3e4027cfc') in 0.006681 seconds 
+  Import took 0.009270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_43.asset
+  artifactKey: Guid(f063e54bbc8244f14a14905943634dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_43.asset using Guid(f063e54bbc8244f14a14905943634dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97209dda651c0e322daec256ebc7c72c') in 0.007084 seconds 
+  Import took 0.009972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_53.asset
+  artifactKey: Guid(5d48a634aacde41d48483ea3d0151a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_53.asset using Guid(5d48a634aacde41d48483ea3d0151a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab9c2e443877506e278f45e37632d46') in 0.006193 seconds 
+  Import took 0.008954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_84.asset
+  artifactKey: Guid(a04679bb1bd1245a4b78c5765ddf0910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_84.asset using Guid(a04679bb1bd1245a4b78c5765ddf0910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052ee9e99d171ee03e7d95a750801fde') in 0.006631 seconds 
+  Import took 0.009401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_145.asset
+  artifactKey: Guid(18e4b8d9550fc465496485e0830d9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_145.asset using Guid(18e4b8d9550fc465496485e0830d9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b8e6e7747e587a5e4208b410a82d8d') in 0.006101 seconds 
+  Import took 0.008966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_96.asset
+  artifactKey: Guid(4ce0b87e109e24854bdad67fdcc21533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_96.asset using Guid(4ce0b87e109e24854bdad67fdcc21533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8ffe9e56bf52843582c89f6133e7be') in 0.006220 seconds 
+  Import took 0.009134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_159.asset
+  artifactKey: Guid(a6667abaf44c04035960e7c7a5c1800f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_159.asset using Guid(a6667abaf44c04035960e7c7a5c1800f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27949686d64d994d19ec8949d8d3cc65') in 0.005961 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_195.asset
+  artifactKey: Guid(fdde1895fe5f94b99b471a33f8486e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_195.asset using Guid(fdde1895fe5f94b99b471a33f8486e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89327fdfa4baa6e58bc0dcf9bfa30314') in 0.006768 seconds 
+  Import took 0.009614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/House.prefab
+  artifactKey: Guid(380fd08eddf324c02a4600cc762ff397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/House.prefab using Guid(380fd08eddf324c02a4600cc762ff397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7330c92399ba731cf693315507e4af') in 0.199097 seconds 
+  Import took 0.205663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_218.asset
+  artifactKey: Guid(311e02eeba2b644feb6bc2a83e076ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_218.asset using Guid(311e02eeba2b644feb6bc2a83e076ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bdb1f37ed5d804eb2e5ffe9b719ab6') in 0.006057 seconds 
+  Import took 0.008814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_130.asset
+  artifactKey: Guid(0d7380415cbd345eca564d7cc94e72d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_130.asset using Guid(0d7380415cbd345eca564d7cc94e72d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11660bbea1783b49355f8ff8f101b7dc') in 0.005711 seconds 
+  Import took 0.008789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_88.asset
+  artifactKey: Guid(89dfe54cc20f14969a39dab232389aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_88.asset using Guid(89dfe54cc20f14969a39dab232389aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b4504c240208f1aa162bdbfbbcc1be') in 0.004760 seconds 
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_155.asset
+  artifactKey: Guid(ac9854be116f84e4799ed3591e223faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_155.asset using Guid(ac9854be116f84e4799ed3591e223faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826b70da771005ee482c69496e6e6ecf') in 0.004763 seconds 
+  Import took 0.007814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_185.asset
+  artifactKey: Guid(3eb5bf693925d4868aa85800ee712739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_185.asset using Guid(3eb5bf693925d4868aa85800ee712739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5220e6d68ed0ee55ad0d19d1db0f48f5') in 0.005022 seconds 
+  Import took 0.007766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_202.asset
+  artifactKey: Guid(225a3cb8eb4d4475ab99817cbcec1c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_202.asset using Guid(225a3cb8eb4d4475ab99817cbcec1c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60254ec2466905f087e8f04b9dcfa65') in 0.005187 seconds 
+  Import took 0.007790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_120.asset
+  artifactKey: Guid(dce6bfd06c60b42c7a5c8e4fdd23d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_120.asset using Guid(dce6bfd06c60b42c7a5c8e4fdd23d757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f8218b8f9bc39147bde76b0f0777ef') in 0.004874 seconds 
+  Import took 0.007408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_151.asset
+  artifactKey: Guid(320f0d508d9384d9e8ffacbde92244ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_151.asset using Guid(320f0d508d9384d9e8ffacbde92244ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aae1dd92e6ad903c12f6b3cb48a345') in 0.004667 seconds 
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_160.asset
+  artifactKey: Guid(b31706ce2aed74689a5d308c255f7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_160.asset using Guid(b31706ce2aed74689a5d308c255f7177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e946151786ea984a4a75583223733a') in 0.004436 seconds 
+  Import took 0.007241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_97.asset
+  artifactKey: Guid(d2e236986b588476ea5b7634ab5d3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_97.asset using Guid(d2e236986b588476ea5b7634ab5d3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4925651b33192cb207d070a4a8ef4255') in 0.004509 seconds 
+  Import took 0.007365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_172.asset
+  artifactKey: Guid(3caa2fa5635e446978a0919cc3cf2c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_172.asset using Guid(3caa2fa5635e446978a0919cc3cf2c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3952acc71b70dbbf4254a3e2e642de1') in 0.005200 seconds 
+  Import took 0.008247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_70.asset
+  artifactKey: Guid(3ea4b072998a740bbb9424babfab2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_70.asset using Guid(3ea4b072998a740bbb9424babfab2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c52e0687cd2efb05980422d8599ef') in 0.004540 seconds 
+  Import took 0.007544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_201.asset
+  artifactKey: Guid(c206e3af319c34231ad8407a28a8ae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_201.asset using Guid(c206e3af319c34231ad8407a28a8ae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181986c0d673a0fc71d2d90be08c19c5') in 0.004595 seconds 
+  Import took 0.007144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_186.asset
+  artifactKey: Guid(7c5265e5bf99949e0bcd1d6fefe4a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_186.asset using Guid(7c5265e5bf99949e0bcd1d6fefe4a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b8a6aa71ff9537ef4d29e06ae8176') in 0.004730 seconds 
+  Import took 0.007477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_154.asset
+  artifactKey: Guid(b395b9eaf62b9495db792367e9d1846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_154.asset using Guid(b395b9eaf62b9495db792367e9d1846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a701275f32c43a97a6a21154369fb310') in 0.005533 seconds 
+  Import took 0.008147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_188.asset
+  artifactKey: Guid(aeba11373bf3f4ccbbde8e0255aeaba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_188.asset using Guid(aeba11373bf3f4ccbbde8e0255aeaba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a8d06a14daff5ad2bd60ae68b47874') in 0.004793 seconds 
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_207.asset
+  artifactKey: Guid(151a2228b039f48e8a79481ac8707093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_207.asset using Guid(151a2228b039f48e8a79481ac8707093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3842f495735d61b172606b5a3fb9d21') in 0.006258 seconds 
+  Import took 0.008764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_168.asset
+  artifactKey: Guid(42ff0a90874614d2e9996d2399a2450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_168.asset using Guid(42ff0a90874614d2e9996d2399a2450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d429e98bdbaab5169e6c8e31014341') in 0.005171 seconds 
+  Import took 0.007904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_213.asset
+  artifactKey: Guid(459a43f14f6144554a86f72c6cb3590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_213.asset using Guid(459a43f14f6144554a86f72c6cb3590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a393f7e9ac669ed1ba68d31bf9a943') in 0.004839 seconds 
+  Import took 0.007569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_42.asset
+  artifactKey: Guid(e00d8b089aa3e44a8af36d0546f509cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_42.asset using Guid(e00d8b089aa3e44a8af36d0546f509cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43922cf37be76ccb1fcb20a9fee2dcc0') in 0.005765 seconds 
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_66.asset
+  artifactKey: Guid(69a70b3c489834a138a8843fdf66af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_66.asset using Guid(69a70b3c489834a138a8843fdf66af4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc602b35278484087ea5c90535df6f7') in 0.005597 seconds 
+  Import took 0.008388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_126.asset
+  artifactKey: Guid(9edaed4ad6e0f46a7a082f6263914210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_126.asset using Guid(9edaed4ad6e0f46a7a082f6263914210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681d4405c1f24fd5d698ae1ad645f7ac') in 0.005050 seconds 
+  Import took 0.007901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_182.asset
+  artifactKey: Guid(3354b744fec8b44a7902137b2e32b255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_182.asset using Guid(3354b744fec8b44a7902137b2e32b255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0119d27848298046809ff38e1e3747') in 0.004736 seconds 
+  Import took 0.008347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_167.asset
+  artifactKey: Guid(8fd0f27d76abc4005ac0c9801ad08446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_167.asset using Guid(8fd0f27d76abc4005ac0c9801ad08446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe95c0dfe354e83c77ce3ec46b17089a') in 0.013114 seconds 
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_109.asset
+  artifactKey: Guid(6064e6c16efc84aacaad6e873f682221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_109.asset using Guid(6064e6c16efc84aacaad6e873f682221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ed179c2238bbc27905d9e6acca9c8f') in 0.005046 seconds 
+  Import took 0.007641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_158.asset
+  artifactKey: Guid(f51ad71d174904c048408005d8be5fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_158.asset using Guid(f51ad71d174904c048408005d8be5fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65b822c1a34d1e8ef6a674a3d3f1772') in 0.006252 seconds 
+  Import took 0.009039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_191.asset
+  artifactKey: Guid(3753d046d5a84429d9346084e90896b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_191.asset using Guid(3753d046d5a84429d9346084e90896b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb84b9b32caa3f5460f867b45ca9feca') in 0.004531 seconds 
+  Import took 0.006992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_221.asset
+  artifactKey: Guid(a3159d36ce7bf4c2f9b5f36e783420a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_221.asset using Guid(a3159d36ce7bf4c2f9b5f36e783420a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023efbe21ce1a954b177528880f57df') in 0.007091 seconds 
+  Import took 0.010363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_74.asset
+  artifactKey: Guid(9732db500cce9489ab22b276a3c079e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_74.asset using Guid(9732db500cce9489ab22b276a3c079e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd653799135cd62f6b403e7b0a9e8e127') in 0.004816 seconds 
+  Import took 0.007602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_119.asset
+  artifactKey: Guid(5d219b3ce8ec44aebacf88186d7c50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_119.asset using Guid(5d219b3ce8ec44aebacf88186d7c50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12acb6273c35791ad84e544824e5c55c') in 0.005195 seconds 
+  Import took 0.007848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_104.asset
+  artifactKey: Guid(d3c11d3acd7b246748411492d4b29a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_104.asset using Guid(d3c11d3acd7b246748411492d4b29a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c37f4b7936c79e6815eddb58cac981f') in 0.004264 seconds 
+  Import took 0.006749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_141.asset
+  artifactKey: Guid(63c1ad813bccd4fa4887173b6df6b9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_141.asset using Guid(63c1ad813bccd4fa4887173b6df6b9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9542f4f775a263fe1894fbf65ee70c51') in 0.005092 seconds 
+  Import took 0.007539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_111.asset
+  artifactKey: Guid(2ebf1fb2ff22e42c8bb1965427c7556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_111.asset using Guid(2ebf1fb2ff22e42c8bb1965427c7556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b6d49670d15f3a150fc3e998c790f5') in 0.004409 seconds 
+  Import took 0.007272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_196.asset
+  artifactKey: Guid(ae3a589cd27d34fd9a3c7159d4517577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_196.asset using Guid(ae3a589cd27d34fd9a3c7159d4517577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c54a5b546067806ed280b0d9bb7d97') in 0.006728 seconds 
+  Import took 0.010715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_89.asset
+  artifactKey: Guid(e5bacd24c16654470a7e167304b3af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_89.asset using Guid(e5bacd24c16654470a7e167304b3af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce2ba376e5f3a3de841f2c448d24aad') in 0.005005 seconds 
+  Import took 0.007545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_131.asset
+  artifactKey: Guid(132522fd9806c4c729779d046a9e5138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_131.asset using Guid(132522fd9806c4c729779d046a9e5138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868bb54d6f4267a4dbb5abaf5e4ae5a9') in 0.005004 seconds 
+  Import took 0.007955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_105.asset
+  artifactKey: Guid(2ecb330ae4da84fb1a368de1a6963af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_105.asset using Guid(2ecb330ae4da84fb1a368de1a6963af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c764e6401e306b1a1b3b8b53224a05') in 0.004637 seconds 
+  Import took 0.007754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_163.asset
+  artifactKey: Guid(22dfe280e4356494688b448c8fc9c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_163.asset using Guid(22dfe280e4356494688b448c8fc9c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e750af8725c4b22035069176030067b1') in 0.004897 seconds 
+  Import took 0.007688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_220.asset
+  artifactKey: Guid(b1613d735e65a495ca355a1324575162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_220.asset using Guid(b1613d735e65a495ca355a1324575162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dbc70c5cca734b364bd4fd58276cfd') in 0.004552 seconds 
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_175.asset
+  artifactKey: Guid(9683d5b457b434f90b28a0236bc20f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_175.asset using Guid(9683d5b457b434f90b28a0236bc20f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d236f73c6350b6289f8cd7f4650e5f') in 0.005869 seconds 
+  Import took 0.008597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_147.asset
+  artifactKey: Guid(8cccb35db6a5d409a96d88de57145d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_147.asset using Guid(8cccb35db6a5d409a96d88de57145d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b2501f48522225136ccf09020d97f3') in 0.017923 seconds 
+  Import took 0.021004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_210.asset
+  artifactKey: Guid(e208bcaea25d74b44a1226988d88282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_210.asset using Guid(e208bcaea25d74b44a1226988d88282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4352df560b7fb58279dcfbc8212e299') in 0.004856 seconds 
+  Import took 0.007441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_200.asset
+  artifactKey: Guid(1a9f3020755f7414f94f174b91c18dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_200.asset using Guid(1a9f3020755f7414f94f174b91c18dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a720ee5ff1969eb6b341908e9ebbddb') in 0.005323 seconds 
+  Import took 0.008620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_208.asset
+  artifactKey: Guid(c50fc4892004a4fb58934e1b1238bad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_208.asset using Guid(c50fc4892004a4fb58934e1b1238bad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155899e3d195c0951dec64a0997a6486') in 0.004918 seconds 
+  Import took 0.007658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_107.asset
+  artifactKey: Guid(f2c401326be1c48bbabbfa020ac04c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_107.asset using Guid(f2c401326be1c48bbabbfa020ac04c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acef583b14af640131725b15036649d') in 0.004378 seconds 
+  Import took 0.006807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_117.asset
+  artifactKey: Guid(66a34e16706e943b28a09dbd2f85a5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_117.asset using Guid(66a34e16706e943b28a09dbd2f85a5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565aded5d0dd6ebd800fddcf33097bc6') in 0.004803 seconds 
+  Import took 0.007553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_58.asset
+  artifactKey: Guid(2757762c0e180475396aff31193ac216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_58.asset using Guid(2757762c0e180475396aff31193ac216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc47b8e47151c62a177e011d21f079a') in 0.004850 seconds 
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_187.asset
+  artifactKey: Guid(21e4806b148af4c19bb60d51feb07ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_187.asset using Guid(21e4806b148af4c19bb60d51feb07ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7989ffedd9972e475437f024f30ac4c') in 0.004909 seconds 
+  Import took 0.007704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_56.asset
+  artifactKey: Guid(a23936240e8f144a79bf3920a378922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_56.asset using Guid(a23936240e8f144a79bf3920a378922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa71f72c5f496520a007be08f52b48d') in 0.004620 seconds 
+  Import took 0.007046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_100.asset
+  artifactKey: Guid(f6c16e1e98575473b9ce80e5c68ce89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_100.asset using Guid(f6c16e1e98575473b9ce80e5c68ce89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef18f6f2795ef1ca3b3ce064bdb1406') in 0.005114 seconds 
+  Import took 0.007889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_215.asset
+  artifactKey: Guid(033aa392762d9408697ca44883af3172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_215.asset using Guid(033aa392762d9408697ca44883af3172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09af3a99e8183be288ff0c63aff351f3') in 0.006371 seconds 
+  Import took 0.009055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_121.asset
+  artifactKey: Guid(b5f84d0c83d6e4147bb379852d2a0b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_121.asset using Guid(b5f84d0c83d6e4147bb379852d2a0b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154c0fdd49d3244ff5bd15ba6ec3d3ff') in 0.004928 seconds 
+  Import took 0.007441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_60.asset
+  artifactKey: Guid(e7aaca7f0407c4129951e9f91a1c9ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_60.asset using Guid(e7aaca7f0407c4129951e9f91a1c9ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23050e8541509a5ba76ea732090904') in 0.004835 seconds 
+  Import took 0.007428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_177.asset
+  artifactKey: Guid(ff9465a4f4b5543f0931cdc8d0b665dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_177.asset using Guid(ff9465a4f4b5543f0931cdc8d0b665dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961b7d61aa7c8ac4eee51a017d55ba6') in 0.005012 seconds 
+  Import took 0.007993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_125.asset
+  artifactKey: Guid(9c64d068981a24c4fb99a82f3081fd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_125.asset using Guid(9c64d068981a24c4fb99a82f3081fd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd144269aaf11a61494e2870e4270e915') in 0.004923 seconds 
+  Import took 0.007507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_152.asset
+  artifactKey: Guid(800b3677efb124651911846c98fe2e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_152.asset using Guid(800b3677efb124651911846c98fe2e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f60a89d1e5c8256d4220c17adfe3f8e') in 0.005083 seconds 
+  Import took 0.007829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_54.asset
+  artifactKey: Guid(d686db1b3c3dc4e269a085820b60c2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_54.asset using Guid(d686db1b3c3dc4e269a085820b60c2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ceb0128c0e124a161f7f14743753df') in 0.004492 seconds 
+  Import took 0.007248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_116.asset
+  artifactKey: Guid(2c6f9e556e95f452ea72fa2edc26248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_116.asset using Guid(2c6f9e556e95f452ea72fa2edc26248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73797275371534c207b0a7f96dba0945') in 0.004348 seconds 
+  Import took 0.006832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_174.asset
+  artifactKey: Guid(857df8399c4224f108767455d2363d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_174.asset using Guid(857df8399c4224f108767455d2363d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0596a196bde3222b330019a3da67504e') in 0.005399 seconds 
+  Import took 0.008189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_76.asset
+  artifactKey: Guid(a2810eee7fc15473cb11b0054c3f1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_76.asset using Guid(a2810eee7fc15473cb11b0054c3f1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5881f19cf62c16e6083554d422d0787') in 0.004759 seconds 
+  Import took 0.007205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_142.asset
+  artifactKey: Guid(d81312df01a7b4c92b6bb512d5fdf43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_142.asset using Guid(d81312df01a7b4c92b6bb512d5fdf43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31d89225b918c91df225b76d7948e74') in 0.004709 seconds 
+  Import took 0.007463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_150.asset
+  artifactKey: Guid(116e3e9b56fd44dee899c743e830f0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_150.asset using Guid(116e3e9b56fd44dee899c743e830f0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f6b3fed009f35ddd2eb1aa9f22ff8') in 0.005933 seconds 
+  Import took 0.008564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_173.asset
+  artifactKey: Guid(3c6e56838e3a147219be1142b7f1cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_173.asset using Guid(3c6e56838e3a147219be1142b7f1cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24bd49a844549c9df6d5f153c71e33c') in 0.004888 seconds 
+  Import took 0.007457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_40.asset
+  artifactKey: Guid(905500d337ac449e6b416c5a75273849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_40.asset using Guid(905500d337ac449e6b416c5a75273849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e9c93a0f0a5746ca0b970b8947c10') in 0.005222 seconds 
+  Import took 0.007861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_198.asset
+  artifactKey: Guid(3062dd0a8fd6a480585fb6975a8d01f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_198.asset using Guid(3062dd0a8fd6a480585fb6975a8d01f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296ebbea536326a1dcfc4e71e12dfc9d') in 0.005021 seconds 
+  Import took 0.007578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_133.asset
+  artifactKey: Guid(8b9a43485a2724a1e9d9bc0648f7d391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_133.asset using Guid(8b9a43485a2724a1e9d9bc0648f7d391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5943910f9a2df0e37772300d1b3eacad') in 0.004373 seconds 
+  Import took 0.007229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_219.asset
+  artifactKey: Guid(7cc881438346b4b03b4f166889e8428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_219.asset using Guid(7cc881438346b4b03b4f166889e8428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd77d002a4b37020e67b801f9436deec') in 0.004541 seconds 
+  Import took 0.007209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_127.asset
+  artifactKey: Guid(028d8ec9278bf4d48bbe24993bfd1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_127.asset using Guid(028d8ec9278bf4d48bbe24993bfd1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e99013578476ecc96596c39dc3662e2') in 0.004808 seconds 
+  Import took 0.007602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_77.asset
+  artifactKey: Guid(aa36eaff84c5b4a2b9226cc36cb4bff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_77.asset using Guid(aa36eaff84c5b4a2b9226cc36cb4bff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec654667f207d94cd62ef90ba45bed5') in 0.004769 seconds 
+  Import took 0.007665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_41.asset
+  artifactKey: Guid(ed50bae6868ab4a63b532033151aa986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_41.asset using Guid(ed50bae6868ab4a63b532033151aa986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f549050f11a7fe38b6a49c092e0ed9c') in 0.004834 seconds 
+  Import took 0.007458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_110.asset
+  artifactKey: Guid(c2efc5d234ab74ded9269126becd08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_110.asset using Guid(c2efc5d234ab74ded9269126becd08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e868625ca4a1b264d204beab315e8d8e') in 0.004876 seconds 
+  Import took 0.007605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_204.asset
+  artifactKey: Guid(8560d72657ffd42b4bf88647da3fd024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_204.asset using Guid(8560d72657ffd42b4bf88647da3fd024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314eaa8b8ccc495cea3de313a612e09f') in 0.005440 seconds 
+  Import took 0.008351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_81.asset
+  artifactKey: Guid(ab3c28c04acde4963ac05ca15a0169d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_81.asset using Guid(ab3c28c04acde4963ac05ca15a0169d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcf0c29542396927517ace04c2dbceb') in 0.004639 seconds 
+  Import took 0.007164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_189.asset
+  artifactKey: Guid(7bccca94286ec46058484b131dd08a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_189.asset using Guid(7bccca94286ec46058484b131dd08a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479c04508aa463566fc2b5e77eb51dd7') in 0.005867 seconds 
+  Import took 0.008772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_190.asset
+  artifactKey: Guid(a0c1fedd5017e4c21a2c58edbeaf1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_190.asset using Guid(a0c1fedd5017e4c21a2c58edbeaf1a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2838e0e1e3592c1dbc7d37b658041cf0') in 0.004850 seconds 
+  Import took 0.007279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_55.asset
+  artifactKey: Guid(2695e5d408ac74e1c80f78bcd8422d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_55.asset using Guid(2695e5d408ac74e1c80f78bcd8422d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ceab1e6cfe43beb368b743a91ebafc') in 0.004775 seconds 
+  Import took 0.007536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_197.asset
+  artifactKey: Guid(3792b9c318705457fb9476cb87f388dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_197.asset using Guid(3792b9c318705457fb9476cb87f388dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa1c5b89ed555e1cc4b29689e81b070') in 0.005206 seconds 
+  Import took 0.007961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_48.asset
+  artifactKey: Guid(4f57486693b9f45aa99108366e89e9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_48.asset using Guid(4f57486693b9f45aa99108366e89e9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478f4d831c632bec6050447ca1f1298a') in 0.006505 seconds 
+  Import took 0.009403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 653.267635 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_15.asset
+  artifactKey: Guid(bdf2076bb9e634401afe64d851cfd1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_15.asset using Guid(bdf2076bb9e634401afe64d851cfd1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcd27cbc1669ff332a731f020ee0513') in 0.034867 seconds 
+  Import took 0.050571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_16.asset
+  artifactKey: Guid(44aad50d952104850868701d5eb5c18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_16.asset using Guid(44aad50d952104850868701d5eb5c18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6331fb7030e54699aa4c360d4efc514') in 0.007041 seconds 
+  Import took 0.009688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002260 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_51.asset
+  artifactKey: Guid(5b58f11ea74a34c7fa4f1c31970eba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_51.asset using Guid(5b58f11ea74a34c7fa4f1c31970eba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e418681092ba7a91c99efae744bdc') in 0.008806 seconds 
+  Import took 0.011673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_34.asset
+  artifactKey: Guid(86e1cea3ccbe844ec99b1ed87337f8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_34.asset using Guid(86e1cea3ccbe844ec99b1ed87337f8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e61c65a88e062a28a9645bdde54c7fe') in 0.007065 seconds 
+  Import took 0.010008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_39.asset
+  artifactKey: Guid(dcdcbd5099cae413787f5ab98670bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_39.asset using Guid(dcdcbd5099cae413787f5ab98670bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b3f013620fc1c6e082d35820e578d5') in 0.005341 seconds 
+  Import took 0.008165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_23.asset
+  artifactKey: Guid(9e2ace46a55534dd597427e62d244095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_23.asset using Guid(9e2ace46a55534dd597427e62d244095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b10b4b879bff4b6cda8f9bc81c540a') in 0.005674 seconds 
+  Import took 0.008506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_24.asset
+  artifactKey: Guid(7f835a237d1f048e08510133affb89dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_24.asset using Guid(7f835a237d1f048e08510133affb89dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9860bc764dd3542807303014fd740f6') in 0.005723 seconds 
+  Import took 0.008621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_50.asset
+  artifactKey: Guid(7acb4c7d8e23546c4921ecf5978c42ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_50.asset using Guid(7acb4c7d8e23546c4921ecf5978c42ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ee1c089318cddd1e3ae2359a3c6195') in 0.005884 seconds 
+  Import took 0.008737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_44.asset
+  artifactKey: Guid(2f6ca60b19b244544ade13c94506ca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_44.asset using Guid(2f6ca60b19b244544ade13c94506ca0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcc1854dd223f42c62970892c24eb51') in 0.005168 seconds 
+  Import took 0.007743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_46.asset
+  artifactKey: Guid(45cad53d307684e19a8c65db3a2404fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_46.asset using Guid(45cad53d307684e19a8c65db3a2404fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b954349fca5fc1dcb639c0347d87cd') in 0.008587 seconds 
+  Import took 0.010968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_25.asset
+  artifactKey: Guid(10d428b2bbf124648aad34bcf0d0a86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_25.asset using Guid(10d428b2bbf124648aad34bcf0d0a86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eade46d6313df59bc4303c6619bbed43') in 0.005417 seconds 
+  Import took 0.008353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_28.asset
+  artifactKey: Guid(30fbab938ac01454c88d72c7bb424f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_28.asset using Guid(30fbab938ac01454c88d72c7bb424f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e429788556168aa08b5fbc22ceb661') in 0.005370 seconds 
+  Import took 0.008017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_45.asset
+  artifactKey: Guid(587452dda61634888bb01197cba4e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_45.asset using Guid(587452dda61634888bb01197cba4e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9e34e69ccdf449e6674fa6462194bb') in 0.005555 seconds 
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_47.asset
+  artifactKey: Guid(9ef668a6ac5d749bf92d653d7a856bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_47.asset using Guid(9ef668a6ac5d749bf92d653d7a856bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caa21da7d9f8545b1cc052ba9dbc95c') in 0.008065 seconds 
+  Import took 0.010722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_36.asset
+  artifactKey: Guid(15c3d62f7b86b4a78b694917eed0a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_36.asset using Guid(15c3d62f7b86b4a78b694917eed0a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb319f0dcc0a57a2ce529ae542f9731') in 0.005680 seconds 
+  Import took 0.008490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_22.asset
+  artifactKey: Guid(521d4847572e64cf490101e484853491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_22.asset using Guid(521d4847572e64cf490101e484853491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5087de1d2e3a7dede110919f936898b') in 0.005859 seconds 
+  Import took 0.008441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_52.asset
+  artifactKey: Guid(2708430c73ff743418fe5dbaa869e3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_52.asset using Guid(2708430c73ff743418fe5dbaa869e3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0401f32d1fc0895c107be909e7023dc1') in 0.005407 seconds 
+  Import took 0.008053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_27.asset
+  artifactKey: Guid(e95c84f72081c41f193006a160449e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_27.asset using Guid(e95c84f72081c41f193006a160449e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9a219f89e4f1bc94a3a208d9604894') in 0.005474 seconds 
+  Import took 0.008118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_49.asset
+  artifactKey: Guid(2238a34f626634eb28ecc3e24a6dfba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_49.asset using Guid(2238a34f626634eb28ecc3e24a6dfba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a86ca82f5cd34fe0b06614e0be5f1f') in 0.005659 seconds 
+  Import took 0.008466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_30.asset
+  artifactKey: Guid(80fde71cc08164b80ac154ba9b9db526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_30.asset using Guid(80fde71cc08164b80ac154ba9b9db526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6213aa62da025eb8557a8f58a9aa53fd') in 0.005245 seconds 
+  Import took 0.007729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_43.asset
+  artifactKey: Guid(f063e54bbc8244f14a14905943634dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_43.asset using Guid(f063e54bbc8244f14a14905943634dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3194b27875e44c32046fa06eaaa785a4') in 0.005839 seconds 
+  Import took 0.008573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_53.asset
+  artifactKey: Guid(5d48a634aacde41d48483ea3d0151a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_53.asset using Guid(5d48a634aacde41d48483ea3d0151a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96828bd10aca01258a183d5336444b1') in 0.005591 seconds 
+  Import took 0.008107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_26.asset
+  artifactKey: Guid(a6d7f9bb51ef64d92a8087403df6a451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_26.asset using Guid(a6d7f9bb51ef64d92a8087403df6a451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4468b6f0ecb91c39610ada995c5cc428') in 0.005682 seconds 
+  Import took 0.008550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_20.asset
+  artifactKey: Guid(627d648f335694007a24a04dc9b21017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_20.asset using Guid(627d648f335694007a24a04dc9b21017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97aa9953bb93474ae2a986240607e3a1') in 0.005427 seconds 
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_38.asset
+  artifactKey: Guid(403950c364fad4f1f81a27cfc33f8090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_38.asset using Guid(403950c364fad4f1f81a27cfc33f8090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce77e12db8f1347af346468bbaffa3') in 0.005794 seconds 
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_18.asset
+  artifactKey: Guid(c56155a0829c344d3ac21fd572daf62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_18.asset using Guid(c56155a0829c344d3ac21fd572daf62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f0d293fec70abf76024830e6fbfc65') in 0.005560 seconds 
+  Import took 0.007931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_42.asset
+  artifactKey: Guid(e00d8b089aa3e44a8af36d0546f509cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_42.asset using Guid(e00d8b089aa3e44a8af36d0546f509cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6945b7f2effab0ede12c71e93b0067e6') in 0.006006 seconds 
+  Import took 0.008894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_35.asset
+  artifactKey: Guid(3c0bd97322ad945b3b0cfed7246009d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_35.asset using Guid(3c0bd97322ad945b3b0cfed7246009d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e85bbb74b837391d00943366a3e8d3d') in 0.005437 seconds 
+  Import took 0.007955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_17.asset
+  artifactKey: Guid(137b4f4193d614248879d1f5c93efa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_17.asset using Guid(137b4f4193d614248879d1f5c93efa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e046fb5547aa24af771c859de1c52') in 0.005233 seconds 
+  Import took 0.008151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_19.asset
+  artifactKey: Guid(1b8768d9bbbb04ca6b4c5df5728a86bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_19.asset using Guid(1b8768d9bbbb04ca6b4c5df5728a86bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba059afec4184b708b1ef9675edfd469') in 0.005398 seconds 
+  Import took 0.007954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_33.asset
+  artifactKey: Guid(91ea5200f7eda409f9bc429203e8109d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_33.asset using Guid(91ea5200f7eda409f9bc429203e8109d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9940a94993451f1beda96b4834a632ed') in 0.005710 seconds 
+  Import took 0.008432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_21.asset
+  artifactKey: Guid(025fbfd0d612e4f3592f394e8af4e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_21.asset using Guid(025fbfd0d612e4f3592f394e8af4e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa647baf0e1a2e3e15ae867f590ec98') in 0.005893 seconds 
+  Import took 0.008578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_29.asset
+  artifactKey: Guid(d950e1850c40642ee952bc20c2326b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_29.asset using Guid(d950e1850c40642ee952bc20c2326b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009d3a22d4c6388e4d485352a689a536') in 0.005501 seconds 
+  Import took 0.008131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_54.asset
+  artifactKey: Guid(d686db1b3c3dc4e269a085820b60c2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_54.asset using Guid(d686db1b3c3dc4e269a085820b60c2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66547b5b9ca35fc6b249f40b718de3f5') in 0.006361 seconds 
+  Import took 0.009047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_40.asset
+  artifactKey: Guid(905500d337ac449e6b416c5a75273849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_40.asset using Guid(905500d337ac449e6b416c5a75273849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cac9681e03fd30e68aa37bb2511f66') in 0.005504 seconds 
+  Import took 0.008077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_41.asset
+  artifactKey: Guid(ed50bae6868ab4a63b532033151aa986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_41.asset using Guid(ed50bae6868ab4a63b532033151aa986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2730364af8c81a0715dab2b2eab2ce') in 0.005528 seconds 
+  Import took 0.008127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_32.asset
+  artifactKey: Guid(74ffb39c7324c4b00a5b47761800a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_32.asset using Guid(74ffb39c7324c4b00a5b47761800a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1d7eb2426057de37e289f410eb4c8b') in 0.005265 seconds 
+  Import took 0.007875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_31.asset
+  artifactKey: Guid(c368e43917f8247cfa7c5397cc985343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_31.asset using Guid(c368e43917f8247cfa7c5397cc985343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3dd3b0eaf9d1c91a5397d08d905217') in 0.005776 seconds 
+  Import took 0.008292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_55.asset
+  artifactKey: Guid(2695e5d408ac74e1c80f78bcd8422d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_55.asset using Guid(2695e5d408ac74e1c80f78bcd8422d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1a1b5e5d5318803bfe6fe49d4fd616') in 0.005274 seconds 
+  Import took 0.008101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_37.asset
+  artifactKey: Guid(97384f24b972342a497c9c58571b2b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_37.asset using Guid(97384f24b972342a497c9c58571b2b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b0d79fb7c1182a7bb1c677533a4051') in 0.005558 seconds 
+  Import took 0.008286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_48.asset
+  artifactKey: Guid(4f57486693b9f45aa99108366e89e9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(House) craftpix-671109-house-builder-tileset-pixel-art/1 Tileset/Tileset_48.asset using Guid(4f57486693b9f45aa99108366e89e9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7948b9a6e88ef24fa0a09ab9e38bfb31') in 0.005310 seconds 
+  Import took 0.007971 seconds .
+
