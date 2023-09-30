@@ -14874,6 +14874,7 @@ GameObject:
   - component: {fileID: 1480581861}
   - component: {fileID: 1480581855}
   - component: {fileID: 1480581860}
+  - component: {fileID: 1480581857}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -14917,10 +14918,30 @@ MonoBehaviour:
   speed: 5
   jumpSpeed: 5
   groundCheck: {fileID: 1856087788}
-  groundCheckRadius: 1
+  groundCheckRadius: 0.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 1480581857}
+--- !u!95 &1480581857
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480581854}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 01f1248e91c5c484b8d1d9b8292ea8c4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1480581858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15021,8 +15042,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013380051, y: -0.762556}
-  m_Size: {x: 1.2200279, y: 1.6748878}
+  m_Offset: {x: 0.031309128, y: -0.762556}
+  m_Size: {x: 1.3094063, y: 1.6748878}
   m_Direction: 0
 --- !u!114 &1764825812
 MonoBehaviour:
@@ -15262,7 +15283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856087787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -1.72, z: 0}
+  m_LocalPosition: {x: 0.023, y: -1.591, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1480581859}

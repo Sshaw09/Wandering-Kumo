@@ -9,10 +9,12 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed = 10f;
 
     //Variables for GroundCheck (Stops player from double jumping)
-    public Transform groundCheck;   //Readjust the groundcheck is game 
-    public float groundCheckRadius; //Change when player sprite is added
-    public LayerMask groundLayer;
+    [SerializeField] private Transform groundCheck;
+    private float groundCheckRadius = 0.5f; //Change when player sprite is added
+    [SerializeField] public LayerMask groundLayer;
     private bool isTouchingGround;
+
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,15 +29,23 @@ public class PlayerController : MonoBehaviour
         Vector2 velocity = new Vector2(horizontalInput * speed, playerRb.velocity.y);
         playerRb.velocity = velocity;
 
-        //Checks if the player is touching the ground
+
+
+        //Checks if the player is touching the ground 
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         //Uses the W Key & Up Arrow to Jump
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && isTouchingGround)
+        if (isTouchingGround && Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && isTouchingGround)
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, jumpSpeed);
+            
         }
+        //Animation
+        animator.SetFloat("Horizontal", horizontalInput);
+        animator.SetFloat("Speed", velocity.sqrMagnitude);
+        animator.SetBool("IsJumping", !isTouchingGround);
     }
+
     void FixedUpdate()
     {
    
