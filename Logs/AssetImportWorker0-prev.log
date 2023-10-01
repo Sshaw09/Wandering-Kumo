@@ -1,0 +1,1261 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.1 (Build 22G90)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53274
+Successfully changed project path to: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo
+/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Assets
+GfxDevice: creating device client; threaded=0
+2023-09-30 21:37:28.951 Unity[40565:1391217] (null) preferred device: Apple M1 Pro (high power)
+2023-09-30 21:37:28.951 Unity[40565:1391217] Metal devices available: 1
+2023-09-30 21:37:28.951 Unity[40565:1391217] 0: Apple M1 Pro (high power)
+2023-09-30 21:37:28.951 Unity[40565:1391217] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56565
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001917 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 49.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1402ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (687ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 48.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2399ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2094ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (845ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004209 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.015498 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Users/stephenshaw/Downloads/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+2023-09-30 21:37:35.169 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f97237783d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-09-30 21:37:35.173 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f972356ff70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2725.
+Total: 2.830292 ms (FindLiveObjects: 0.135750 ms CreateObjectMapping: 0.050709 ms MarkObjects: 2.205000 ms  DeleteObjects: 0.437833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/3.png
+  artifactKey: Guid(4e1dab48509994f95adbcd5625ddd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/3.png using Guid(4e1dab48509994f95adbcd5625ddd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54871f3bb5a232b4a2d8ee90ffa38f3') in 0.268629 seconds 
+  Import took 0.274676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001048 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/6.png
+  artifactKey: Guid(c5032259fe8e04ea584ca2911c2624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/6.png using Guid(c5032259fe8e04ea584ca2911c2624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398528da5fef2f649dba66e18e8b451f') in 0.016026 seconds 
+  Import took 0.018717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/5.png
+  artifactKey: Guid(481f56eeed98444a1bb767d164d89b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/5.png using Guid(481f56eeed98444a1bb767d164d89b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e4dc10d90309c4cd513ba31ce8b6b3') in 0.006992 seconds 
+  Import took 0.009694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/10.png
+  artifactKey: Guid(139a170ec7836499587aa4e8ae8ba956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/10.png using Guid(139a170ec7836499587aa4e8ae8ba956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa57a5246256b0293d76b9282f5fd166') in 0.007922 seconds 
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.asset
+  artifactKey: Guid(369ee2c23ecf24ebe83fe8885519de45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.asset using Guid(369ee2c23ecf24ebe83fe8885519de45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8ef66e2333ec8010d7df4a4adf7d3f') in 0.116273 seconds 
+  Import took 0.120897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.png
+  artifactKey: Guid(d27729ef2c79e44099606201b358fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.png using Guid(d27729ef2c79e44099606201b358fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43544beb48dfd221381884f5a4c87a88') in 0.006080 seconds 
+  Import took 0.009126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/9.png
+  artifactKey: Guid(42e00c7fe5d0c45a2913929050e78a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/9.png using Guid(42e00c7fe5d0c45a2913929050e78a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95944c35d22eb3de049798ed6ae5802') in 0.007733 seconds 
+  Import took 0.010419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/2.png
+  artifactKey: Guid(1aea985cba881428a9667bbfc7ccc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/2.png using Guid(1aea985cba881428a9667bbfc7ccc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bf3f0d92b37a0e3ff411aecc5c4e8b') in 0.008212 seconds 
+  Import took 0.011349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/8.png
+  artifactKey: Guid(cbb6d1b06ae4b47ddaf4690711ad42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/8.png using Guid(cbb6d1b06ae4b47ddaf4690711ad42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05a7f5c0671a46a9d5c7e5db0824090') in 0.007861 seconds 
+  Import took 0.010674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/4.png
+  artifactKey: Guid(c0164738788584306ad74cfcd21b1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/4.png using Guid(c0164738788584306ad74cfcd21b1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63099492cba17db33f9685a6806056d5') in 0.005399 seconds 
+  Import took 0.008216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/7.png
+  artifactKey: Guid(3145d78f6227c4ff09d85d108c52441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/7.png using Guid(3145d78f6227c4ff09d85d108c52441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76a0664bf146c241332426c666838b') in 0.005260 seconds 
+  Import took 0.008017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.228545 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/4.png
+  artifactKey: Guid(c0164738788584306ad74cfcd21b1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/4.png using Guid(c0164738788584306ad74cfcd21b1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a25e31dad9e158447ed007301b63d09') in 0.009024 seconds 
+  Import took 0.011893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/3.png
+  artifactKey: Guid(4e1dab48509994f95adbcd5625ddd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/3.png using Guid(4e1dab48509994f95adbcd5625ddd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61280baca2a24625fc2068f59fa56caf') in 0.007104 seconds 
+  Import took 0.010312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/6.png
+  artifactKey: Guid(c5032259fe8e04ea584ca2911c2624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/6.png using Guid(c5032259fe8e04ea584ca2911c2624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d018dcbf304bea0d5c7cae7bde57a91') in 0.007436 seconds 
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/5.png
+  artifactKey: Guid(481f56eeed98444a1bb767d164d89b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/5.png using Guid(481f56eeed98444a1bb767d164d89b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff76ee681538969f4d52c0885ffe27c3') in 0.006226 seconds 
+  Import took 0.008980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/10.png
+  artifactKey: Guid(139a170ec7836499587aa4e8ae8ba956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/10.png using Guid(139a170ec7836499587aa4e8ae8ba956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42de387e91677490817e10c0174fa7') in 0.006203 seconds 
+  Import took 0.009017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.png
+  artifactKey: Guid(d27729ef2c79e44099606201b358fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.png using Guid(d27729ef2c79e44099606201b358fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94b3c7c5244b2389a701c1df126cbca') in 0.006705 seconds 
+  Import took 0.009335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/9.png
+  artifactKey: Guid(42e00c7fe5d0c45a2913929050e78a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/9.png using Guid(42e00c7fe5d0c45a2913929050e78a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ddeeb121c442624199652620f254ba') in 0.005951 seconds 
+  Import took 0.008448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/2.png
+  artifactKey: Guid(1aea985cba881428a9667bbfc7ccc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/2.png using Guid(1aea985cba881428a9667bbfc7ccc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c44c2e572f0531c991c244bb3ee8fe') in 0.006396 seconds 
+  Import took 0.009505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/8.png
+  artifactKey: Guid(cbb6d1b06ae4b47ddaf4690711ad42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/8.png using Guid(cbb6d1b06ae4b47ddaf4690711ad42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b4fbb6e466ba7e0396574107b1a86d') in 0.005696 seconds 
+  Import took 0.008562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/7.png
+  artifactKey: Guid(3145d78f6227c4ff09d85d108c52441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/7.png using Guid(3145d78f6227c4ff09d85d108c52441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c056ac3a2edb5b4ce8e1a3f5b69020bc') in 0.005584 seconds 
+  Import took 0.008468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.671785 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/4.png
+  artifactKey: Guid(c0164738788584306ad74cfcd21b1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/4.png using Guid(c0164738788584306ad74cfcd21b1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c769fc825bad03b379faab98441bd') in 0.014381 seconds 
+  Import took 0.022559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/3.png
+  artifactKey: Guid(4e1dab48509994f95adbcd5625ddd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/3.png using Guid(4e1dab48509994f95adbcd5625ddd61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359942c28962ba6f9bb58dd043a22cf3') in 0.006638 seconds 
+  Import took 0.009360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007477 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/6.png
+  artifactKey: Guid(c5032259fe8e04ea584ca2911c2624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/6.png using Guid(c5032259fe8e04ea584ca2911c2624e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c520c7677a9f0d0d7fbc834f4eda569d') in 0.008769 seconds 
+  Import took 0.012181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/5.png
+  artifactKey: Guid(481f56eeed98444a1bb767d164d89b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/5.png using Guid(481f56eeed98444a1bb767d164d89b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a8d0838c25e0fab390b378d2f7a16a') in 0.007821 seconds 
+  Import took 0.011325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/10.png
+  artifactKey: Guid(139a170ec7836499587aa4e8ae8ba956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/10.png using Guid(139a170ec7836499587aa4e8ae8ba956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66801274945997c36f85b59c6c5408f8') in 0.006156 seconds 
+  Import took 0.009099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.png
+  artifactKey: Guid(d27729ef2c79e44099606201b358fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/1.png using Guid(d27729ef2c79e44099606201b358fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfb5300ad519143d904fc6a022a849d') in 0.006467 seconds 
+  Import took 0.009443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/9.png
+  artifactKey: Guid(42e00c7fe5d0c45a2913929050e78a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/9.png using Guid(42e00c7fe5d0c45a2913929050e78a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28138635694bfe261bc628b67d42d71') in 0.005403 seconds 
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/2.png
+  artifactKey: Guid(1aea985cba881428a9667bbfc7ccc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/2.png using Guid(1aea985cba881428a9667bbfc7ccc0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc857da829aa0b45a8b23a1c86c9239') in 0.005927 seconds 
+  Import took 0.008495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/8.png
+  artifactKey: Guid(cbb6d1b06ae4b47ddaf4690711ad42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/8.png using Guid(cbb6d1b06ae4b47ddaf4690711ad42d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b5fead45ab755cbea5df8497ff2cf4') in 0.006369 seconds 
+  Import took 0.009377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/7.png
+  artifactKey: Guid(3145d78f6227c4ff09d85d108c52441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass 1/7.png using Guid(3145d78f6227c4ff09d85d108c52441d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f0fb92747abf6a6b4c3ce1b84f94e2') in 0.006984 seconds 
+  Import took 0.009594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.904643 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.asset
+  artifactKey: Guid(0aceccfc528074e8bb607e715da5cfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.asset using Guid(0aceccfc528074e8bb607e715da5cfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab51f31b4515ae0ec26d2c0e67ab2d0') in 0.018457 seconds 
+  Import took 0.022077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.225062 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.png
+  artifactKey: Guid(06e316ac58fc149d6bbb79ff6ff0e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.png using Guid(06e316ac58fc149d6bbb79ff6ff0e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b01ad4071ad5dbd131c8f2e09e220b5') in 0.008447 seconds 
+  Import took 0.011387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/6.png
+  artifactKey: Guid(d81e6b39140dd47beace64201b057c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/6.png using Guid(d81e6b39140dd47beace64201b057c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ecf581ad764db2476f8daa9df9074') in 0.006872 seconds 
+  Import took 0.009452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/5.png
+  artifactKey: Guid(cc992787a54214302b3f26e9ee8ebcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/5.png using Guid(cc992787a54214302b3f26e9ee8ebcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a577aaf96a2196dac46d5f0fa82f0ab') in 0.006348 seconds 
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/7.png
+  artifactKey: Guid(3e23995024ecd473aab52bff57706e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/7.png using Guid(3e23995024ecd473aab52bff57706e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1201701753b7254e870516ba456ef578') in 0.007908 seconds 
+  Import took 0.011024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/2.png
+  artifactKey: Guid(f9d5696c744894ddeaac01beef67c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/2.png using Guid(f9d5696c744894ddeaac01beef67c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f6790ee4c893418b9c12b4d0ccd023') in 0.007646 seconds 
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/10.png
+  artifactKey: Guid(be5eaaf363fb94a7d9f0263c31d8d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/10.png using Guid(be5eaaf363fb94a7d9f0263c31d8d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aeebbd2e9312949c961c4f523f4e94') in 0.006052 seconds 
+  Import took 0.008910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/4.png
+  artifactKey: Guid(cc34e1c1f0943440b9c950d16e630bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/4.png using Guid(cc34e1c1f0943440b9c950d16e630bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0211f157f7db84e21055faac76896b2') in 0.006406 seconds 
+  Import took 0.009061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/8.png
+  artifactKey: Guid(f366da9b0d8524751a73f9550819e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/8.png using Guid(f366da9b0d8524751a73f9550819e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa03e42303e0280173c173b18b9d526') in 0.007237 seconds 
+  Import took 0.009959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/9.png
+  artifactKey: Guid(25586ac7ffd184de28cdbb741655e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/9.png using Guid(25586ac7ffd184de28cdbb741655e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6314525dc8bd1a65198c0eb3c06f3e3') in 0.007941 seconds 
+  Import took 0.010568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/3.png
+  artifactKey: Guid(1b4e2b74b237845808974301fad64dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/3.png using Guid(1b4e2b74b237845808974301fad64dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff0c4d1f0bcec246790b80bfa717109') in 0.007133 seconds 
+  Import took 0.010018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.574611 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/1.png
+  artifactKey: Guid(810e65857cee04bd3b800b4f0ca5f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/1.png using Guid(810e65857cee04bd3b800b4f0ca5f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f81074eb63858928b21371b623ffccd') in 0.035800 seconds 
+  Import took 0.048806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/5.png
+  artifactKey: Guid(43bd18291a39442bb90deda7251aec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/5.png using Guid(43bd18291a39442bb90deda7251aec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780e962d8afa9601dd4c6d294c75af86') in 0.007107 seconds 
+  Import took 0.009927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/7.png
+  artifactKey: Guid(afe246cfcdfae4cd388e9cd48d25c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/7.png using Guid(afe246cfcdfae4cd388e9cd48d25c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69660b4133cdcf27d584aea60a177c70') in 0.006507 seconds 
+  Import took 0.009323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/8.png
+  artifactKey: Guid(a2953d01dd7db4a47bb41ed9ae7122e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/8.png using Guid(a2953d01dd7db4a47bb41ed9ae7122e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a754ffdc303941164d44ba4b6981eaf') in 0.016344 seconds 
+  Import took 0.019165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/9.png
+  artifactKey: Guid(1f0b440cb473f4fa38474e8ce5a1e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/9.png using Guid(1f0b440cb473f4fa38474e8ce5a1e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721575af79bc2d0271061d1185a0945f') in 0.006714 seconds 
+  Import took 0.009695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/4.png
+  artifactKey: Guid(e7d4b3bccd33641e7892f9cf7f6446e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/4.png using Guid(e7d4b3bccd33641e7892f9cf7f6446e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549618a8862a791918679accc0c947b0') in 0.007070 seconds 
+  Import took 0.009744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/6.png
+  artifactKey: Guid(4c9300f45f0de4e42986bc865dbb3499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/6.png using Guid(4c9300f45f0de4e42986bc865dbb3499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6c238356bb69b5468519765eb65805') in 0.006878 seconds 
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/2.png
+  artifactKey: Guid(3697b131ead2e4bc0b1540b08e77362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/2.png using Guid(3697b131ead2e4bc0b1540b08e77362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97c443b4afceba00c7e62d30ed7b587') in 0.006406 seconds 
+  Import took 0.009176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/3.png
+  artifactKey: Guid(1a61fb6e87a3449c6a2f37aa6a5db9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/3.png using Guid(1a61fb6e87a3449c6a2f37aa6a5db9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec448f7e2b25005211056721fa5c3fe') in 0.006628 seconds 
+  Import took 0.009275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/10.png
+  artifactKey: Guid(c44b1f1d14cef42c8bd362a5c773693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/10.png using Guid(c44b1f1d14cef42c8bd362a5c773693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e42a87d39dacbf33f4a051ea8a25b5') in 0.006753 seconds 
+  Import took 0.009618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.696038 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/1.png
+  artifactKey: Guid(810e65857cee04bd3b800b4f0ca5f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/1.png using Guid(810e65857cee04bd3b800b4f0ca5f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47cebeb79d8307ca4fa3eafaab2a2e1') in 0.007332 seconds 
+  Import took 0.010379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/5.png
+  artifactKey: Guid(43bd18291a39442bb90deda7251aec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/5.png using Guid(43bd18291a39442bb90deda7251aec07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abd44954fcf4d840284967a0e4e857c') in 0.007161 seconds 
+  Import took 0.009931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/7.png
+  artifactKey: Guid(afe246cfcdfae4cd388e9cd48d25c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/7.png using Guid(afe246cfcdfae4cd388e9cd48d25c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8028b0ba81e3a9c42ac3444af733612') in 0.006127 seconds 
+  Import took 0.008918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/8.png
+  artifactKey: Guid(a2953d01dd7db4a47bb41ed9ae7122e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/8.png using Guid(a2953d01dd7db4a47bb41ed9ae7122e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7b82ae8d5c786343227fd889bbb8c1') in 0.007314 seconds 
+  Import took 0.009960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/9.png
+  artifactKey: Guid(1f0b440cb473f4fa38474e8ce5a1e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/9.png using Guid(1f0b440cb473f4fa38474e8ce5a1e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76f2db9567208401b7b9b668752232') in 0.005138 seconds 
+  Import took 0.007759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/4.png
+  artifactKey: Guid(e7d4b3bccd33641e7892f9cf7f6446e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/4.png using Guid(e7d4b3bccd33641e7892f9cf7f6446e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ffb2c9b81a3575e80c503e187df12c') in 0.006258 seconds 
+  Import took 0.009087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003231 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/6.png
+  artifactKey: Guid(4c9300f45f0de4e42986bc865dbb3499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/6.png using Guid(4c9300f45f0de4e42986bc865dbb3499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa6054983a8f50e94a3fd23c614112') in 0.010384 seconds 
+  Import took 0.013160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/2.png
+  artifactKey: Guid(3697b131ead2e4bc0b1540b08e77362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/2.png using Guid(3697b131ead2e4bc0b1540b08e77362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd32a525d774ee8682610fbee412d69') in 0.006690 seconds 
+  Import took 0.009584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/3.png
+  artifactKey: Guid(1a61fb6e87a3449c6a2f37aa6a5db9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/3.png using Guid(1a61fb6e87a3449c6a2f37aa6a5db9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ba1d9f1b70302c85cc1b10280a1574') in 0.005832 seconds 
+  Import took 0.008435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/10.png
+  artifactKey: Guid(c44b1f1d14cef42c8bd362a5c773693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/10.png using Guid(c44b1f1d14cef42c8bd362a5c773693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab36de83636f4b67a5ae3295055a1272') in 0.006239 seconds 
+  Import took 0.009128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.532895 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/1.asset
+  artifactKey: Guid(cbcc328309c964a14bb111948d90b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Test/1.asset using Guid(cbcc328309c964a14bb111948d90b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6d2425d1242cdec02a8170e1417a04') in 0.007367 seconds 
+  Import took 0.010395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.993900 seconds.
+  path: Assets/Dialogue/New Character.asset
+  artifactKey: Guid(5a9dac5c1a675404d8538a0c84aeea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/New Character.asset using Guid(5a9dac5c1a675404d8538a0c84aeea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d461d41f1ec3ccd5d1b73f5c0d5577') in 0.012436 seconds 
+  Import took 0.023659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.319209 seconds.
+  path: Assets/Dialogue/Main Character.asset
+  artifactKey: Guid(5a9dac5c1a675404d8538a0c84aeea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/Main Character.asset using Guid(5a9dac5c1a675404d8538a0c84aeea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bca84b987b3563738e1256e02fb3f4') in 0.003512 seconds 
+  Import took 0.006523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-09-30 21:49:14.521 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f97237527d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2300ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1976ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (1150ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (253ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.1 MB.
+System memory in use after: 250.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 2.341083 ms (FindLiveObjects: 0.119916 ms CreateObjectMapping: 0.045209 ms MarkObjects: 2.150708 ms  DeleteObjects: 0.024375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-09-30 21:53:48.747 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f97237e3440 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2264ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1916ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (1072ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (784ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.4 MB.
+System memory in use after: 252.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2753.
+Total: 2.103292 ms (FindLiveObjects: 0.109709 ms CreateObjectMapping: 0.042917 ms MarkObjects: 1.925875 ms  DeleteObjects: 0.024208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-09-30 21:58:21.144 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f97237e3630 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.329 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2009ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (841ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.8 MB.
+System memory in use after: 255.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2755.
+Total: 2.386708 ms (FindLiveObjects: 0.110750 ms CreateObjectMapping: 0.046667 ms MarkObjects: 2.206542 ms  DeleteObjects: 0.021625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 667.015872 seconds.
+  path: Assets/Art/Aseprite/Testing.prefab
+  artifactKey: Guid(07db095c5a3d94ab08cd4aaabcf22de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Aseprite/Testing.prefab using Guid(07db095c5a3d94ab08cd4aaabcf22de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c805b27cc024569de7523acacc8beb') in 0.310912 seconds 
+  Import took 0.328587 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-09-30 22:00:09.501 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f97436b88c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2316ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1957ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (1107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (797ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 336.2 MB.
+System memory in use after: 336.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2762.
+Total: 2.177958 ms (FindLiveObjects: 0.105459 ms CreateObjectMapping: 0.042875 ms MarkObjects: 2.009750 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.840816 seconds.
+  path: Assets/Art/Aseprite/vector-transparent-checkerboard-transparent-pattern-background_546559-432.avif
+  artifactKey: Guid(4549a5eb4e6cc457abe0ecbbeea381ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Aseprite/vector-transparent-checkerboard-transparent-pattern-background_546559-432.avif using Guid(4549a5eb4e6cc457abe0ecbbeea381ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f3441304f37181055ef26627e91c5c') in 0.169531 seconds 
+  Import took 0.184265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.902437 seconds.
+  path: Assets/Art/Aseprite/Square.png
+  artifactKey: Guid(b07d4f8f9306043c9a41738987b3cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Aseprite/Square.png using Guid(b07d4f8f9306043c9a41738987b3cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896d1f186a8dccd69eb28af71ed8b4a0') in 0.129540 seconds 
+  Import took 0.132769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.867568 seconds.
+  path: Assets/Art/Aseprite/1Image.png
+  artifactKey: Guid(7ba2a02230b664d5b99275df8330bf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Aseprite/1Image.png using Guid(7ba2a02230b664d5b99275df8330bf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0394f74b10ed3829bf898cb04097f6') in 0.054844 seconds 
+  Import took 0.066646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.973125 seconds.
+  path: Assets/Art/Aseprite/1Image.asset
+  artifactKey: Guid(cf4ac1bc97c5944749ce7b43414fbde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Aseprite/1Image.asset using Guid(cf4ac1bc97c5944749ce7b43414fbde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3616530522a7b1517944b7bb2e3bc2f') in 0.045301 seconds 
+  Import took 0.048210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art/Aseprite/Testing.prefab
+  artifactKey: Guid(07db095c5a3d94ab08cd4aaabcf22de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Aseprite/Testing.prefab using Guid(07db095c5a3d94ab08cd4aaabcf22de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49abab89f3664e2edfde69dd64e3f4d') in 0.091488 seconds 
+  Import took 0.094192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.384647 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art
+  artifactKey: Guid(58bf32da215bb4df3b83c46c24e5ac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art using Guid(58bf32da215bb4df3b83c46c24e5ac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd141794745903325a9c336d566b7242b') in 0.001928 seconds 
+  Import took 0.011591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.372254 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Ruins
+  artifactKey: Guid(669942ac0f54d4cbaab97538311f011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Ruins using Guid(669942ac0f54d4cbaab97538311f011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cf09bf1ccc2bcb333fb8b71a6a5dea') in 0.002149 seconds 
+  Import took 0.005786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.034079 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Pointers
+  artifactKey: Guid(6308863ba03f54f7a95c8055e06acccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Pointers using Guid(6308863ba03f54f7a95c8055e06acccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76fc01dbb4dfb758450e74706fbedae') in 0.002048 seconds 
+  Import took 0.006255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.125512 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Pine-trees
+  artifactKey: Guid(1529a90a6fca84b4489493171b7151dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Pine-trees using Guid(1529a90a6fca84b4489493171b7151dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d2f8c412b07c49dcf53f76cbbc95b1') in 0.001623 seconds 
+  Import took 0.005066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-09-30 22:06:08.468 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f975332faa0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2400ms)
+		BeginReloadAssembly (297ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2003ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (1120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (823ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 417.6 MB.
+System memory in use after: 417.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2769.
+Total: 2.310750 ms (FindLiveObjects: 0.123041 ms CreateObjectMapping: 0.042375 ms MarkObjects: 2.124250 ms  DeleteObjects: 0.020042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94.124780 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass
+  artifactKey: Guid(3d16d2d55de38440781ac238586b5a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass using Guid(3d16d2d55de38440781ac238586b5a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c612a5d39bd4d1311a9edc6ada2cbb54') in 0.033373 seconds 
+  Import took 0.051936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/6.png
+  artifactKey: Guid(d81e6b39140dd47beace64201b057c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/6.png using Guid(d81e6b39140dd47beace64201b057c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b06ffee5fe733d50785de088110fb9') in 0.153953 seconds 
+  Import took 0.157018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/5.png
+  artifactKey: Guid(cc992787a54214302b3f26e9ee8ebcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/5.png using Guid(cc992787a54214302b3f26e9ee8ebcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0514f7adb1b03d52157066a02fe25718') in 0.009997 seconds 
+  Import took 0.012602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006058 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/7.png
+  artifactKey: Guid(3e23995024ecd473aab52bff57706e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/7.png using Guid(3e23995024ecd473aab52bff57706e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd68d6956d93d576ddabb6753a8c72b5') in 0.008691 seconds 
+  Import took 0.012161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/2.png
+  artifactKey: Guid(f9d5696c744894ddeaac01beef67c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/2.png using Guid(f9d5696c744894ddeaac01beef67c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7c94e20cf35627ba64dda09a127f33') in 0.008086 seconds 
+  Import took 0.010893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.png
+  artifactKey: Guid(06e316ac58fc149d6bbb79ff6ff0e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.png using Guid(06e316ac58fc149d6bbb79ff6ff0e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe90e877891877a628bd876d7125aaa') in 0.008357 seconds 
+  Import took 0.011283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/10.png
+  artifactKey: Guid(be5eaaf363fb94a7d9f0263c31d8d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/10.png using Guid(be5eaaf363fb94a7d9f0263c31d8d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb662f333c899582935329a8e82c6817') in 0.007870 seconds 
+  Import took 0.010655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/4.png
+  artifactKey: Guid(cc34e1c1f0943440b9c950d16e630bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/4.png using Guid(cc34e1c1f0943440b9c950d16e630bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2949ea62547a6d26880f0cffd89960') in 0.008398 seconds 
+  Import took 0.011253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/8.png
+  artifactKey: Guid(f366da9b0d8524751a73f9550819e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/8.png using Guid(f366da9b0d8524751a73f9550819e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5423cea2c6b20e49bceead6a8344c4ed') in 0.008336 seconds 
+  Import took 0.011326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/9.png
+  artifactKey: Guid(25586ac7ffd184de28cdbb741655e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/9.png using Guid(25586ac7ffd184de28cdbb741655e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffcd1aedc6a41cb2a4c33f890b0106c') in 0.007632 seconds 
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/3.png
+  artifactKey: Guid(1b4e2b74b237845808974301fad64dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/3.png using Guid(1b4e2b74b237845808974301fad64dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8411ecc1ca2467f57f7c0c97c96d312b') in 0.007446 seconds 
+  Import took 0.010358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.521882 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.png
+  artifactKey: Guid(06e316ac58fc149d6bbb79ff6ff0e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/1.png using Guid(06e316ac58fc149d6bbb79ff6ff0e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07820cd3b9808beafeefbcde655c41ed') in 0.009177 seconds 
+  Import took 0.012146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/6.png
+  artifactKey: Guid(d81e6b39140dd47beace64201b057c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/6.png using Guid(d81e6b39140dd47beace64201b057c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc48fcafe9efd649f1a7920f70498031') in 0.007234 seconds 
+  Import took 0.009772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/5.png
+  artifactKey: Guid(cc992787a54214302b3f26e9ee8ebcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/5.png using Guid(cc992787a54214302b3f26e9ee8ebcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71ecf3fa4ee9a9af5b2024709122521') in 0.007698 seconds 
+  Import took 0.010585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/7.png
+  artifactKey: Guid(3e23995024ecd473aab52bff57706e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/7.png using Guid(3e23995024ecd473aab52bff57706e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e6c61b9e04913eb48436617974a40') in 0.007209 seconds 
+  Import took 0.009681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/2.png
+  artifactKey: Guid(f9d5696c744894ddeaac01beef67c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/2.png using Guid(f9d5696c744894ddeaac01beef67c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59274d5315848d2c73697247d0e613f1') in 0.009212 seconds 
+  Import took 0.012219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/10.png
+  artifactKey: Guid(be5eaaf363fb94a7d9f0263c31d8d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/10.png using Guid(be5eaaf363fb94a7d9f0263c31d8d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64dfa711ba5123a56fe16ed6bdb3eab') in 0.008228 seconds 
+  Import took 0.010850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/4.png
+  artifactKey: Guid(cc34e1c1f0943440b9c950d16e630bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/4.png using Guid(cc34e1c1f0943440b9c950d16e630bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e411747c55c64875eb6f71b3a2a2a2') in 0.007927 seconds 
+  Import took 0.010701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/8.png
+  artifactKey: Guid(f366da9b0d8524751a73f9550819e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/8.png using Guid(f366da9b0d8524751a73f9550819e5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2793e23a7c4072f8f642a4376c0c9b8') in 0.008343 seconds 
+  Import took 0.011038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/9.png
+  artifactKey: Guid(25586ac7ffd184de28cdbb741655e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/9.png using Guid(25586ac7ffd184de28cdbb741655e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c3801d2ca75553bc918ec1d6453f9d') in 0.007031 seconds 
+  Import took 0.009729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/3.png
+  artifactKey: Guid(1b4e2b74b237845808974301fad64dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/PreMade/Craftpix/(Dirt)craftpix-781153-ruins-game-tileset-pixel-art/3 Objects/Grass/3.png using Guid(1b4e2b74b237845808974301fad64dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54b59db9996c09b4ca552eb1c9426cd') in 0.006996 seconds 
+  Import took 0.009477 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-09-30 22:09:45.091 Unity[40565:1391217] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f97433b3f20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2319ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1963ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (1106ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (261ms)
+				ProcessInitializeOnLoadAttributes (786ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 420.1 MB.
+System memory in use after: 420.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2772.
+Total: 2.486583 ms (FindLiveObjects: 0.138334 ms CreateObjectMapping: 0.043375 ms MarkObjects: 2.273500 ms  DeleteObjects: 0.030125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
