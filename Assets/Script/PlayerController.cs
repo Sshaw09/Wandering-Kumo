@@ -13,12 +13,13 @@ public class PlayerController : MonoBehaviour
     private float groundCheckRadius = 0.5f; //Change when player sprite is added
     [SerializeField] public LayerMask groundLayer;
     private bool isTouchingGround;
-
     public Animator animator;
+    SpriteRenderer playerSprite;
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -30,7 +31,6 @@ public class PlayerController : MonoBehaviour
         playerRb.velocity = velocity;
 
 
-
         //Checks if the player is touching the ground 
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
@@ -38,8 +38,9 @@ public class PlayerController : MonoBehaviour
         if (isTouchingGround && Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && isTouchingGround)
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, jumpSpeed);
-            
+            //playerSprite.flipX = true;
         }
+
         //Animation
         animator.SetFloat("Horizontal", horizontalInput);
         animator.SetFloat("Speed", velocity.sqrMagnitude);
