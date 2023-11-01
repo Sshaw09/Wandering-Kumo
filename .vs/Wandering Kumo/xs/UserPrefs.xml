@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{645CCC6A-BD58-912D-E24B-33C300C9AC5F}|">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="188b65da-16a3-4d71-88a0-41546586d14a" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eb7b6415-4aaa-436f-86fa-7d1c913bc739" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" Line="12" Column="52" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="41" Column="15" />
       <File FileName="Assets/Script/CameraFollow.cs" />
     </Files>
     <Pads>
@@ -24,6 +26,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
