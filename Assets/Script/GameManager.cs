@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,20 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        OpenMenuScreen();
+        ResumeGame();
+    }
+
+    void OpenMenuScreen()
+    {
+        if (Input.GetKey("escape") )
+        {
+            menu.gameObject.SetActive(true);
+        }
+    }
+
+    void ResumeGame()
+    {
+        menu.gameObject.SetActive(false);
     }
 }
