@@ -8,25 +8,25 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        ResumeGame();
     }
 
     // Update is called once per frame
     void Update()
     {
-        OpenMenuScreen();
-        ResumeGame();
+       OpenMenuScreen();
     }
 
     void OpenMenuScreen()
     {
-        if (Input.GetKey("escape") )
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             menu.gameObject.SetActive(true);
         }
     }
 
-    void ResumeGame()
+    public void ResumeGame()
     {
         menu.gameObject.SetActive(false);
     }
