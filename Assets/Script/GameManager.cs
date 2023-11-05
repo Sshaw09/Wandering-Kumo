@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 
-        ResumeGame();
     }
 
     // Update is called once per frame
