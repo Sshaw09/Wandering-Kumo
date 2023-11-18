@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
     public Transform launchOffset;
     float projectileSpeed = 4.5f;
 
+    // Look Direction for projectiles
+    Vector2 lookDirection = new Vector2(1, 0);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,10 +42,18 @@ public class PlayerController : MonoBehaviour
         Vector2 velocity = new Vector2(horizontalInput * speed, playerRb.velocity.y);
         playerRb.velocity = velocity;
 
+        // Set which direction the player is looking
+        Vector2 move = new Vector2(horizontalInput, 0);
+
+        if (!Mathf.Approximately(move.x, 0.0f))
+        {
+            lookDirection.Set(move.x, 0);
+            lookDirection.Normalize();
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            var bullet = Instantiate(projectilePrefab, launchOffset.position, launchOffset.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = launchOffset.up * projectileSpeed;
+            Launch(); 
         }
 
         //Animation
@@ -63,9 +74,16 @@ public class PlayerController : MonoBehaviour
         if (isTouchingGround && Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && isTouchingGround)
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, jumpSpeed);
-            //playerSprite.flipX = true;
         }
     }
-    
-}
 
+    public void Launch()
+    {
+        GameObject projectileObject = Instantiate(projectilePrefab, transform.position, transform.rotation);
+        projectileObject.GetComponent<Rigidbody2D>().velocity = lookDirection * projectileSpeed;
+        Projectile projectile = projectileObject.GetComponent<Projectile>();
+        projectile.Launch(lookDirection, 1000);
+
+    }
+
+}
