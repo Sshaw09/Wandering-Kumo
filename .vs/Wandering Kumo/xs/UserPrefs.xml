@@ -1,12 +1,18 @@
 ﻿<Properties StartupConfiguration="{645CCC6A-BD58-912D-E24B-33C300C9AC5F}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e8c32906-1595-4a78-8b99-df7615514d87" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" Line="56" Column="85" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Projectile.cs" Line="9" Column="5" />
       <File FileName="Assets/Script/CameraFollow.cs" />
       <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Util/UIBehaviourExtensions.cs" />
       <File FileName="Assets/Script/GameManager.cs" />
-      <File FileName="Assets/Script/Projectile.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,10 +26,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="96114893-aac0-4406-b3a7-20f3b68a0d79" />
-  <MultiItemStartupConfigurations />
 </Properties>
