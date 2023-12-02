@@ -26,4 +26,14 @@ public class Projectile : MonoBehaviour
     {
         rigidbody2d.AddForce(direction * force);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Player")){
+            Destroy(gameObject);
+        }
+
+        
+    }
+    
 }
