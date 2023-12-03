@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //Overall Movement
     Rigidbody2D playerRb;
     public float speed = 5f;
     public float jumpSpeed = 10f;
@@ -26,6 +27,9 @@ public class PlayerController : MonoBehaviour
 
     // Look Direction for projectiles
     Vector2 lookDirection = new Vector2(1, 0);
+
+    //UI
+    [SerializeField] GameObject eText;
 
     // Start is called before the first frame update
     void Start()
@@ -83,7 +87,14 @@ public class PlayerController : MonoBehaviour
         projectileObject.GetComponent<Rigidbody2D>().velocity = lookDirection * projectileSpeed;
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 1000);
+    }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+     //   if (!collision.gameObject.CompareTag("Door"))
+     //   {
+     //      eText.SetActive(false);
+     //   }
     }
 
 }

@@ -6,27 +6,20 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/DoorTeleporter.cs">
     <Files>
-      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Util/UIBehaviourExtensions.cs" Line="1" Column="1" NotebookId="1" IsPinned="True" />
-      <File FileName="Assets/Script/GameManager.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Script/Projectile.cs" Line="36" Column="9" NotebookId="1" />
-      <File FileName="Assets/Script/CameraFollow.cs" NotebookId="1" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/DoorTeleporter.cs" Line="10" Column="18" />
+      <File FileName="Assets/Script/Projectile.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameManager.cs" Line="1" Column="1" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="1472" Y="93" Width="1165" Height="851">
-        <Files>
-          <File FileName="Assets/Script/PlayerController.cs" Line="54" Column="77" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Wandering Kumo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Script" expanded="True">
-                <Node name="CameraFollow.cs" selected="True" />
+                <Node name="DoorTeleporter.cs" selected="True" />
               </Node>
             </Node>
           </Node>

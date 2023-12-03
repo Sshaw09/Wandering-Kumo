@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject menu;
     public static bool projectileActive = false;
+    public GameObject leftBorder;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +35,10 @@ public class GameManager : MonoBehaviour
     public void ProjectileCheck()
     {
         projectileActive = true;
+    }
+
+    public void DestroyBorder()
+    {
+        Destroy(leftBorder);
     }
 }
