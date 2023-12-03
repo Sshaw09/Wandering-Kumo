@@ -89,12 +89,5 @@ public class PlayerController : MonoBehaviour
         projectile.Launch(lookDirection, 1000);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-     //   if (!collision.gameObject.CompareTag("Door"))
-     //   {
-     //      eText.SetActive(false);
-     //   }
-    }
 
 }
