@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638345483350000000
-    m_Hash: 2103841685
+      ticks: 638373073670000000
+    m_Hash: 2100664385
   m_LockFileStatus:
     m_FilePath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638345483360000000
-    m_Hash: 3322272896
+      ticks: 638373073670000000
+    m_Hash: 1737955774
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1263,6 +1263,8 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.0
+        - 1.4.1
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1281,6 +1283,8 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.0
+        - 1.4.1
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1687,6 +1691,71 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
         revision: 527e4364e28028f20f04fc51db671eb4bb910a26
+        path: 
+    - packageId: com.unity.ugui@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PackageCache/com.unity.ugui@1.0.0
+      assetPath: Packages/com.unity.ugui
+      name: com.unity.ugui
+      displayName: Unity UI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "Unity UI is a UI toolkit for developing user interfaces for games
+        and applications. It is a GameObject-based UI system that uses Components
+        and the Game View to arrange, position, and style user interfaces. \u200B
+        You cannot use Unity UI to create or change user interfaces in the Unity
+        Editor."
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 3.0.0-exp.1
+        - 3.0.0-exp.3
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - UI
+      - ugui
+      - Unity UI
+      - Canvas
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -3430,71 +3499,6 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ugui@1.0.0
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.0
-      source: 2
-      resolvedPath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PackageCache/com.unity.ugui@1.0.0
-      assetPath: Packages/com.unity.ugui
-      name: com.unity.ugui
-      displayName: Unity UI
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: "Unity UI is a UI toolkit for developing user interfaces for games
-        and applications. It is a GameObject-based UI system that uses Components
-        and the Game View to arrange, position, and style user interfaces. \u200B
-        You cannot use Unity UI to create or change user interfaces in the Unity
-        Editor."
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        - 3.0.0-exp.1
-        - 3.0.0-exp.3
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies:
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - UI
-      - ugui
-      - Unity UI
-      - Canvas
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
@@ -3613,6 +3617,7 @@ m_PackageAssets:
         - 1.10.1
         - 1.11.0
         - 1.12.0
+        - 1.12.1
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3639,6 +3644,7 @@ m_PackageAssets:
         - 1.10.1
         - 1.11.0
         - 1.12.0
+        - 1.12.1
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest

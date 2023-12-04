@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;

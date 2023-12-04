@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Dirt
   - Door
+  - Arrow
+  - Coin
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
+using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerController : MonoBehaviour
 {
@@ -28,9 +33,8 @@ public class PlayerController : MonoBehaviour
     // Look Direction for projectiles
     Vector2 lookDirection = new Vector2(1, 0);
 
-    //UI
-    [SerializeField] GameObject eText;
-
+    //For Escape Room
+    [SerializeField] GameObject door;
     // Start is called before the first frame update
     void Start()
     {
@@ -89,5 +93,14 @@ public class PlayerController : MonoBehaviour
         projectile.Launch(lookDirection, 1000);
     }
 
+    //For Escape Room
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            door.SetActive(false);
+            Destroy(collision.gameObject);
+        }
+    }
 
 }
