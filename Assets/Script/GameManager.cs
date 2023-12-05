@@ -31,11 +31,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ResumeGame()
-    {
-        menu.gameObject.SetActive(false);
-    }
-
     public void ProjectileCheck()
     {
         projectileActive = true;
@@ -45,4 +40,5 @@ public class GameManager : MonoBehaviour
     {
         Destroy(leftBorder);
     }
+
 }

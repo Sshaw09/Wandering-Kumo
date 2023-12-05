@@ -14,11 +14,6 @@ public class TestGameManager : MonoBehaviour
     public GameObject coin;
     public TextMeshProUGUI scoreText;
     bool coinCheck = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
