@@ -24671,7 +24671,7 @@ GameObject:
   - component: {fileID: 1132340774}
   - component: {fileID: 1132340773}
   m_Layer: 0
-  m_Name: NPC4
+  m_Name: NPC3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24760,7 +24760,7 @@ Transform:
   m_Children:
   - {fileID: 956052339}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1132722094
 PrefabInstance:
@@ -26435,7 +26435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -108, y: 179}
+  m_AnchoredPosition: {x: -300, y: 192}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610113718
@@ -26485,8 +26485,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -26521,7 +26521,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -29.816711, w: 0}
+  m_margin: {x: 0, y: -60.996338, z: -29.816711, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -26547,7 +26547,7 @@ GameObject:
   - component: {fileID: 1628376002}
   - component: {fileID: 1628376001}
   m_Layer: 0
-  m_Name: Wizard - NPC3
+  m_Name: Wizard - NPC4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26636,7 +26636,7 @@ Transform:
   m_Children:
   - {fileID: 1500705610}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1874580431
 PrefabInstance:
@@ -30688,7 +30688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[2].sentence
-      value: "I\u2019m impressed you got here through the war"
+      value: "I\u2019m impressed you got here through the war."
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[3].sentence
@@ -30701,15 +30701,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[5].sentence
-      value: Yes, I'm.
+      value: No, sorry. I'm having memory issues!
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[6].sentence
-      value: At first, we, the land dwellers and the sky dwellers, were at peace
+      value: Oh let me tell you then. At first, we, the land dwellers and the sky
+        dwellers, were at peace
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[7].sentence
-      value: Then we discovered an ancient ruin, and everything changed.
+      value: Then we discovered an ancient ruin and everything changed.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[8].sentence
@@ -30717,12 +30718,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[9].sentence
-      value: "The ruins had manuscripts on magic. So after the sky dwellers found
-        out and didn\u2019t like that we found it. So..."
+      value: "The ruins had manuscripts on magic. The sky dwellers found out and
+        didn\u2019t like that we discovered it. So..."
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[10].sentence
-      value: they attacked.
+      value: They attacked!
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[11].sentence
@@ -30730,11 +30731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[12].sentence
-      value: The war has slowed down since they got gotten rid of most wizards
+      value: The war has slowed down since they got gotten rid of most wizards.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[13].sentence
-      value: Is there a way for me to meet a wizard?
+      value: Wizards, are there any left?
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[14].sentence
@@ -30768,7 +30769,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[5].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 71083a4e3817c4303a0ec79b10ea0385, type: 2}
+      objectReference: {fileID: 11400000, guid: 5a9dac5c1a675404d8538a0c84aeea31, type: 2}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[6].dialogueCharacter
       value: 
