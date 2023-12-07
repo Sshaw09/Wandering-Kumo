@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
 
     //For Escape Room
     [SerializeField] GameObject door;
+    [SerializeField] GameObject titleScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -100,6 +101,7 @@ public class PlayerController : MonoBehaviour
         {
             door.SetActive(false);
             Destroy(collision.gameObject);
+            titleScreen.SetActive(true);
         }
     }
 
