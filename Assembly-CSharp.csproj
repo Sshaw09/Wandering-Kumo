@@ -64,7 +64,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/Script/CameraFollow.cs" />
-    <Compile Include="Assets/Script/WestBorder.cs" />
+    <Compile Include="Assets/Script/!Level1/WestBorder.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -80,6 +80,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/Script/TitleScreen.cs" />
+    <Compile Include="Assets/Script/!Level1/Note.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/Script/Background.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
@@ -104,11 +105,11 @@
     <Compile Include="Assets/Script/Dialogue/DialogueManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Script/GameManager.cs" />
-    <Compile Include="Assets/Script/DoorTeleporter.cs" />
+    <Compile Include="Assets/Script/!Level1/DoorTeleporter.cs" />
     <Compile Include="Assets/$Escape Room/OpenDoorES.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/Script/Note.cs" />
+    <Compile Include="Assets/Script/StartLevelTwo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -121,6 +122,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Art/PreMade/(Tree Img) craftpix-net-168228-free-tree-pixel-art-asset-pack/readme.txt" />
+    <None Include="Assets/Art/PreMade/Level 2 Assets - Ansimuz/public-license-0.txt" />
     <None Include="Assets/Art/PreMade/(House) craftpix-671109-house-builder-tileset-pixel-art/Font.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />

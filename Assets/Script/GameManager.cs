@@ -9,7 +9,7 @@ using static UnityEngine.GraphicsBuffer;
 public class GameManager : MonoBehaviour
 {
     public GameObject menu;
-    public static bool projectileActive = false;
+    [SerializeField] public static bool projectileActive = false;
     public GameObject leftBorder;
     // Start is called before the first frame update
     void Start()

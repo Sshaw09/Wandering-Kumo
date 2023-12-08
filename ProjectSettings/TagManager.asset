@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Arrow
   - Coin
+  - Ruin
   layers:
   - Default
   - TransparentFX
