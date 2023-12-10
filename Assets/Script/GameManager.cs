@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject menu;
     [SerializeField] public static bool projectileActive = false;
     public GameObject leftBorder;
+    [SerializeField] AudioSource musicSource;
     // Start is called before the first frame update
     void Start()
     {

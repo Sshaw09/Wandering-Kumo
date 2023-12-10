@@ -9,23 +9,24 @@ using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerController : MonoBehaviour
 {
-    //Overall Movement
+
+    [Header("*Movement*")] //Overall Movement
     Rigidbody2D playerRb;
     public float speed = 5f;
     public float jumpSpeed = 10f;
     public float horizontalInput;
 
-    //Variables for GroundCheck (Stops player from double jumping)
+    [Header("*Ground Check*")] //Variables for GroundCheck (Stops player from double jumping)
     public Transform groundCheck;
     private float groundCheckRadius = 0.5f; //Change when player sprite is added
     public LayerMask groundLayer;
     public bool isTouchingGround;
 
-    //Animation Variables
+    [Header("*Animation*")] //Animation Variables
     public Animator animator;
     SpriteRenderer playerSprite;
 
-    //Projectile Variables
+    [Header("*Projectile*")] //Projectile Variables
     public GameObject projectilePrefab;
     public Transform launchOffset;
     float projectileSpeed = 4.5f;
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
     // Look Direction for projectiles
     Vector2 lookDirection = new Vector2(1, 0);
 
-    //For Escape Room
+    [Header("*Escape Room*")] //For Escape Room
     [SerializeField] GameObject door;
     [SerializeField] GameObject titleScreen;
     // Start is called before the first frame update
