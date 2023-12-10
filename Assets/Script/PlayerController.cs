@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public GameObject projectilePrefab;
     public Transform launchOffset;
     float projectileSpeed = 4.5f;
+    [SerializeField] AudioSource projectileSound;
 
     // Look Direction for projectiles
     Vector2 lookDirection = new Vector2(1, 0);
@@ -93,6 +94,7 @@ public class PlayerController : MonoBehaviour
         projectileObject.GetComponent<Rigidbody2D>().velocity = lookDirection * projectileSpeed;
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 1000);
+        projectileSound.Play();
     }
 
     //For Escape Room

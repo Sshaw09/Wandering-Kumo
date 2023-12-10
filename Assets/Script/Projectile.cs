@@ -8,7 +8,6 @@ using static UnityEngine.GraphicsBuffer;
 public class Projectile : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    //float timer = 0;
     // Start is called before the first frame update
     void Awake()
     {

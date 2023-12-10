@@ -5,17 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class StartLevelTwo : MonoBehaviour
 {
-    [SerializeField] GameObject text;
+    [SerializeField] ParticleSystem boom = default;
+    private bool boomPlayed = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SceneManager.LoadScene("TitleScreen");
-        }
 
-        text.SetActive(true);
+        SceneManager.LoadScene("Level2");
     }
 
-
+    private void Update()
+    {
+        if (!GameObject.FindGameObjectWithTag("Ruin") && !boomPlayed)
+        {
+            boom.Play();
+            boomPlayed = true;
+        }
+    }
 }
