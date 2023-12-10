@@ -6,16 +6,17 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" Line="37" Column="27" />
-      <File FileName="Assets/Script/GameManager.cs" Line="43" Column="6" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="65" Column="44" />
+      <File FileName="Assets/Script/GameManager.cs" />
       <File FileName="Assets/Script/Background.cs" />
       <File FileName="Assets/Script/TitleScreen.cs" />
       <File FileName="Assets/$Escape Room/OpenDoorES.cs" />
-      <File FileName="Assets/Script/StartLevelTwo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/StartLevelTwo.cs" Line="23" Column="30" />
       <File FileName="Assets/Script/!Level1/Note.cs" />
-      <File FileName="Assets/Script/Projectile.cs" Line="29" Column="52" />
+      <File FileName="Assets/Script/Projectile.cs" />
+      <File FileName="Assets/$Escape Room/TestGameManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

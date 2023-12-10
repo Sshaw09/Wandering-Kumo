@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class StartLevelTwo : MonoBehaviour
 {
     [SerializeField] ParticleSystem boom = default;
+    [SerializeField] AudioSource boomSound;
     private bool boomPlayed = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,6 +20,7 @@ public class StartLevelTwo : MonoBehaviour
         if (!GameObject.FindGameObjectWithTag("Ruin") && !boomPlayed)
         {
             boom.Play();
+            boomSound.Play();
             boomPlayed = true;
         }
     }

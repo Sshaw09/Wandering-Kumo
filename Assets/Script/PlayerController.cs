@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
             lookDirection.Normalize();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && GameManager.projectileActive)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Launch(); 
         }
