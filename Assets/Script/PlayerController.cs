@@ -4,8 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
-using static System.Net.Mime.MediaTypeNames;
 
 public class PlayerController : MonoBehaviour
 {
@@ -35,9 +33,9 @@ public class PlayerController : MonoBehaviour
     // Look Direction for projectiles
     Vector2 lookDirection = new Vector2(1, 0);
 
-    [Header("*Escape Room*")] //For Escape Room
-    [SerializeField] GameObject door;
-    [SerializeField] GameObject titleScreen;
+    [Header("*Level 2*")] //For Escape Room
+    [SerializeField] public static int score2;
+    [SerializeField] AudioSource coinSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -97,14 +95,15 @@ public class PlayerController : MonoBehaviour
         projectileSound.Play();
     }
 
-    //For Escape Room
+    //For Level 1
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
-            door.SetActive(false);
+            score2++;
+            Debug.Log(score2);
             Destroy(collision.gameObject);
-            titleScreen.SetActive(true);
+            coinSound.Play();
         }
     }
 
