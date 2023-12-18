@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public static bool projectileActive = false;
     public GameObject leftBorder;
     [SerializeField] AudioSource musicSource;
+    public TextMeshPro scoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
        OpenMenuScreen();
+        scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
     }
 
     void OpenMenuScreen()

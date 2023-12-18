@@ -6,9 +6,9 @@ TagManager:
   tags:
   - Dirt
   - Door
-  - Arrow
   - Coin
   - Ruin
+  - Projectile
   layers:
   - Default
   - TransparentFX

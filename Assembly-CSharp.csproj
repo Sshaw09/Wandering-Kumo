@@ -110,6 +110,8 @@
     <Compile Include="Assets/$Escape Room/OpenDoorES.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/Script/Enemy.cs" />
+    <Compile Include="Assets/Script/CoinScore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -985,6 +987,14 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
