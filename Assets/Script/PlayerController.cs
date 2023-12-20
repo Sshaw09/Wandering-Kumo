@@ -33,9 +33,10 @@ public class PlayerController : MonoBehaviour
     // Look Direction for projectiles
     Vector2 lookDirection = new Vector2(1, 0);
 
-    [Header("*Level 2*")] //For Escape Room
+    [Header("*Level 2*")] //For Level2
     [SerializeField] public static int score2;
     [SerializeField] AudioSource coinSound;
+    public Transform offset;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +61,7 @@ public class PlayerController : MonoBehaviour
             lookDirection.Normalize();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && !GameManager.projectileActive)
+        if (Input.GetKeyDown(KeyCode.Space) && GameManager.projectileActive)
         {
             Launch(); 
         }
@@ -95,7 +96,7 @@ public class PlayerController : MonoBehaviour
         projectileSound.Play();
     }
 
-    //For Level 1
+    //For Level 2
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
@@ -104,6 +105,25 @@ public class PlayerController : MonoBehaviour
             Debug.Log(score2);
             Destroy(collision.gameObject);
             coinSound.Play();
+            Debug.Log("THISWORKS");
+
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Slime"))
+        {
+            
+            Debug.Log("WOrks");
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Slime"))
+        {
+            Debug.Log("WOrks");
         }
     }
 

@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - Ruin
   - Projectile
+  - Slime
   layers:
   - Default
   - TransparentFX

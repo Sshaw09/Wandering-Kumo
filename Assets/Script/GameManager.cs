@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public static bool projectileActive = false;
     public GameObject leftBorder;
     [SerializeField] AudioSource musicSource;
-    public TextMeshPro scoreText;
+    public TextMeshProUGUI scoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
        OpenMenuScreen();
-        scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
+       scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
     }
 
     void OpenMenuScreen()

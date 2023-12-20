@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] Transform posToGo;
     Rigidbody2D rb;
     Animator animator;
+    public Transform offset;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,5 +39,6 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 }
