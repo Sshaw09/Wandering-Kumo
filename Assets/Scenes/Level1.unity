@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 202755332}
   - component: {fileID: 202755331}
   m_Layer: 0
-  m_Name: NPC1
+  m_Name: NPC1 (Monica)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -555,7 +555,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 9925b7f09b5b74268b95b07fc4b35942, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].sentenceSound
       value: 
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 430734767}
   - component: {fileID: 430734769}
   m_Layer: 0
-  m_Name: NPC2
+  m_Name: NPC2 (Bella)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24597,8 +24597,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: Magic is useful
+      value: Magic is useful!
       objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1dc48ba3ad2f74281a3904e9120cba42, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -24807,6 +24811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue 2D
       objectReference: {fileID: 0}
+    - target: {fileID: 6011988201399623206, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6297276050750010171, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -24857,11 +24865,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: Hi, are you NPC3?
+      value: Hi, are you Jack?
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].sentence
-      value: "Yes, I\u2019m NPC3, how can I help you?"
+      value: "Yes, I\u2019m Jack, how can I help you?"
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[2].sentence
@@ -24873,7 +24881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[4].sentence
-      value: Uh, you look like an archer.
+      value: Huh, you look like an archer.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[5].sentence
@@ -24893,7 +24901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[9].sentence
-      value: Well, I feel special energy from you.
+      value: Well, I feel a special energy from you.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[10].sentence
@@ -24925,6 +24933,70 @@ PrefabInstance:
       propertyPath: sentences.Array.data[16].sentence
       value: ...
       objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5b4d3bd043e8b4e2cb296d328487ebdf, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e731698a8fa247f196d15857ec2a114, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7b367beb5b28643f7a5d40074b5eff84, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[3].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c4fbebc475da742ce93d810726089129, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[4].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ec78591cba985489da9f4984352e8be2, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[5].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f0b18ce1ea8264124a45c71a5ab87993, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[6].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 605781eb2378548a2a11c62587b4e081, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[7].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 45bee0b305abe46cc9a9b4348bfb33b7, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[8].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: a8d9804171a364a6cab1298b92ae4fda, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[9].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: fee5557e9b26a46cd9f51fd16479ae43, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[10].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 88ae76aa2e0e941dd8f3ba23ecd15515, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[11].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4779b92eb0f6d44dba4cc4301a98371d, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[12].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d5cf8464df9bb4ba09a90565e6079ad8, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[13].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: fb6fc783fa98f4d0a860e8c9ffe5b0b2, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[14].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4099122e7f0664c85bef03ba35a508ad, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[15].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4b6f5c980e9e7494895784daf4925117, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -25547,7 +25619,7 @@ GameObject:
   - component: {fileID: 1132340774}
   - component: {fileID: 1132340773}
   m_Layer: 0
-  m_Name: NPC3
+  m_Name: NPC3 (Jack)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27470,6 +27542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue 2D
       objectReference: {fileID: 0}
+    - target: {fileID: 6011988201399623206, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6297276050750010171, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -27520,7 +27596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: I was wondering who NPC3 would give access to.
+      value: I was wondering who Jack would give access to.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].sentence
@@ -27540,12 +27616,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[5].sentence
-      value: This is strange. Unlike NPC3 and I who have trained for years, I sense
+      value: This is strange. Unlike Jack and I who have trained for years, I sense
         a strong magic from you.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[6].sentence
-      value: Take a deep breath
+      value: Take a deep breath.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[7].sentence
@@ -28125,7 +28201,7 @@ GameObject:
   - component: {fileID: 1628376002}
   - component: {fileID: 1628376001}
   m_Layer: 0
-  m_Name: Wizard - NPC4
+  m_Name: NPC4 (Wizard)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28678,6 +28754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue 2D
       objectReference: {fileID: 0}
+    - target: {fileID: 6011988201399623206, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6297276050750010171, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -28728,7 +28808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: You finally woke up!
+      value: 'You finally woke up! '
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].sentence
@@ -28740,7 +28820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[3].sentence
-      value: 'What''s your name? '
+      value: 'I''m Monica, what''s your name? '
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[4].sentence
@@ -28781,11 +28861,51 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 2c655349d5dff48c8ab96624ad8a6450, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].sentenceSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 4221e2d5d665348719971bce60556c44, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 302ead6a57ae9470cae867e2dd028bda, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[3].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0df6ab9bf0a0c43599518d8fa8d2f6c5, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[4].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8da0245915d8b4da2a3733c46c5b5d44, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[5].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e04ce471d4a474a7793b41149a1724a7, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[6].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b294ad7853cc448908a659d241d66283, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[7].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d8f268de9840f458aab1efe8277fed4e, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[8].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5cd864f0647e049dca593979d130e443, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[9].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: afa654a36251346cbb7aee19812cca51, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[10].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: fa07ef70315164088946e808955dc0ba, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[11].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a4a7a76132ac4b7db24a53d68746ab2, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -32925,6 +33045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue 2D
       objectReference: {fileID: 0}
+    - target: {fileID: 6011988201399623206, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6297276050750010171, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -32979,11 +33103,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: "Oh, you\u2019re the traveler that came to the village."
+      value: "Oh, you\u2019re the traveler who came to the village."
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[1].sentence
-      value: Yes, I'm.
+      value: Yes, I am.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[2].sentence
@@ -33005,7 +33129,7 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[6].sentence
       value: Oh let me tell you then. At first, we the land dwellers and the sky
-        dwellers, were at peace
+        dwellers, were at peace.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[7].sentence
@@ -33030,7 +33154,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[12].sentence
-      value: The war has slowed down since they got gotten rid of most wizards.
+      value: 'The war has slowed down since they got rid of most wizards.
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[13].sentence
@@ -33038,8 +33164,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[14].sentence
-      value: Haha, You should head right for more information on wizards. I can't
-        really tell you more.
+      value: Haha, You should head right and speak to Jack for more information on
+        wizards. I can't really tell you more.
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[15].sentence
@@ -33049,6 +33175,70 @@ PrefabInstance:
       propertyPath: sentences.Array.data[16].sentence
       value: Next Text
       objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f1a982d3f3372402d9aacd177bd2dfd0, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[1].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5c8f3660c75ba402ca2877f238bcdc82, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[2].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f12e9b774b247a98b0ccde1bbf486b, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[3].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ba3f818a18b3e42d78c94b4da354fbb3, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[4].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5accb443ae63c4333961c3a5e13399c2, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[5].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 681f10705b5fe4ae09484428279454b6, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[6].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f09c323dae4b94f53889ba1dac9bbfa3, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[7].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 310ad7f25dfcd4cbd93b674f559c537c, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[8].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 975b5dd23de404c1b99b1c8a60bd987a, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[9].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b140a8acc06bb47a5bd7b95f00c9983d, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[10].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b89afc27464d47d7aec185c1fcaa6af, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[11].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3aec7634dff344dd8b8245d260bac6b1, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[12].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: efa03049fdcda4a7abc62e26bf2c6a9c, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[13].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f9f5edc8f8c42469ab0832c0f55a9e9c, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[14].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: eaac355cdbda145c9b8863e96d10599e, type: 3}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[15].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d9e264858415343898bab6c0be255825, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
@@ -33754,6 +33944,10 @@ PrefabInstance:
       propertyPath: sentences.Array.data[0].sentence
       value: Good luck!
       objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
+      propertyPath: sentences.Array.data[0].sentenceSound
+      value: 
+      objectReference: {fileID: 8300000, guid: eb7857d301f944563b2bb39ec50f1c3a, type: 3}
     - target: {fileID: 8557568673631317014, guid: a0dbeffc84669e24f994d387893a803d, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 

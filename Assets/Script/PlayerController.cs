@@ -36,7 +36,6 @@ public class PlayerController : MonoBehaviour
     [Header("*Level 2*")] //For Level2
     [SerializeField] public static int score2;
     [SerializeField] AudioSource coinSound;
-    public Transform offset;
     // Start is called before the first frame update
     void Start()
     {
@@ -105,26 +104,16 @@ public class PlayerController : MonoBehaviour
             Debug.Log(score2);
             Destroy(collision.gameObject);
             coinSound.Play();
-            Debug.Log("THISWORKS");
-
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.CompareTag("Slime"))
-        {
-            
-            Debug.Log("WOrks");
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Slime"))
         {
-            Debug.Log("WOrks");
+            Debug.Log("Works");
         }
     }
+
 
 }

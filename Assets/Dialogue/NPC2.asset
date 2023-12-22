@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: NPC2
   m_EditorClassIdentifier: 
   characterPhoto: {fileID: 4723107735738678597, guid: 150ccd1d23885493886bca172b28cfff, type: 3}
-  characterName: NPC! (CHANGE NAME)
+  characterName: Bella

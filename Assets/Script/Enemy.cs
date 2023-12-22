@@ -8,10 +8,8 @@ public class Enemy : MonoBehaviour
     public int direction = 1;
     public float timer = 3;
     public float changeTime = 3;
-    [SerializeField] Transform posToGo;
     Rigidbody2D rb;
     Animator animator;
-    public Transform offset;
     // Start is called before the first frame update
     void Start()
     {
