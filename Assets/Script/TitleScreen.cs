@@ -8,7 +8,7 @@ public class TitleScreen : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("2 Level1");
     }
 
     public void QuiGame()

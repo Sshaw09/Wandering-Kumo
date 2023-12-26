@@ -45,4 +45,10 @@ public class GameManager : MonoBehaviour
         Destroy(leftBorder);
     }
 
+    public void QuiGame()
+    {
+        Application.Quit();
+        Debug.Log("QUIT");
+    }
 }
+
