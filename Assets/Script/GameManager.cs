@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject leftBorder;
     [SerializeField] AudioSource musicSource;
     public TextMeshProUGUI scoreText;
+    public GameObject[] menuScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
     {
        OpenMenuScreen();
        scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
+       
     }
 
     void OpenMenuScreen()
@@ -32,6 +34,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             menu.gameObject.SetActive(true);
+            DeactivateGameObjects();
         }
     }
 
@@ -49,6 +52,22 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("QUIT");
+    }
+
+    void DeactivateGameObjects()
+    {
+        foreach (GameObject go in menuScreen)
+        {
+            go.SetActive(false);
+        }
+    }
+
+    public void activateGameObjects()
+    {
+        foreach (GameObject go in menuScreen)
+        {
+            go.SetActive(true);
+        }
     }
 }
 
