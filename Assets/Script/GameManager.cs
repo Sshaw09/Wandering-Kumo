@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject leftBorder;
     [SerializeField] AudioSource musicSource;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI magicText;
     public GameObject[] menuScreen;
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,11 @@ public class GameManager : MonoBehaviour
     {
        OpenMenuScreen();
        scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
-       
+
+        if(PlayerController.score2 == 10)
+        {
+            scoreText.text = "Head to the top right";
+        }
     }
 
     void OpenMenuScreen()
@@ -35,6 +40,11 @@ public class GameManager : MonoBehaviour
         {
             menu.gameObject.SetActive(true);
             DeactivateGameObjects();
+        }
+
+        if(projectileActive == true)
+        {
+            magicText.text = "Space: Use Magic";
         }
     }
 
@@ -54,7 +64,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("QUIT");
     }
 
-    void DeactivateGameObjects()
+    public void DeactivateGameObjects()
     {
         foreach (GameObject go in menuScreen)
         {

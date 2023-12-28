@@ -1,3 +1,4 @@
 // Art - CraftPixel.net
-// Coins - Simple 2D Platformer Assets Pack (Unity Asset Store)
-//Dialogue - HeneGames
+//Dialogue - HeneGame
+//Lead Programming - Stephen Shaw
+//Lead Story Writer - Stephen Shaw

@@ -12,6 +12,7 @@ public class DoorTeleporter : MonoBehaviour
     [SerializeField] Transform posToGo;
     [SerializeField] GameObject text;
     GameObject player;
+    [SerializeField] AudioSource doorSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,7 @@ public class DoorTeleporter : MonoBehaviour
             player.transform.position = posToGo.position;
             playerDoorDetected = false;
             text.SetActive(false);
+            doorSound.Play();
         }
 
     }
