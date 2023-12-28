@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class StartLevelThree : MonoBehaviour
 {
     public GameObject text;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(PlayerController.score2 == 10)
         {
             SceneManager.LoadScene("1 TitleScreen");
+
         }
         else
         {

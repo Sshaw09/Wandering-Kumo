@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI magicText;
     public GameObject[] menuScreen;
+    public ParticleSystem teleport;
+    public GameObject ruinMaster;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,14 @@ public class GameManager : MonoBehaviour
 
         if(PlayerController.score2 == 10)
         {
+            ruinMaster.SetActive(true);
+        }
+        else
+        {
+            ruinMaster.SetActive(false);
+        }
+
+        if(PlayerController.score2 >= 10){
             scoreText.text = "Head to the top right";
         }
     }
@@ -78,6 +88,16 @@ public class GameManager : MonoBehaviour
         {
             go.SetActive(true);
         }
+    }
+
+    public void TeleportAnimation()
+    {
+        teleport.Play();
+    }
+
+    public void DestroyRuinMaster()
+    {
+        PlayerController.score2++;
     }
 }
 
