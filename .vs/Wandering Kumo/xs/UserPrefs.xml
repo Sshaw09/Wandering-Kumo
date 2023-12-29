@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{645CCC6A-BD58-912D-E24B-33C300C9AC5F}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e8c32906-1595-4a78-8b99-df7615514d87" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Art/Coins/Coins.png.meta">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" Line="114" Column="68" />
-      <File FileName="Assets/Script/GameManager.cs" Line="42" Column="38" />
-      <File FileName="Assets/Script/Credits.cs" />
-      <File FileName="Assets/Script/!Level1/StartLevelTwo.cs" Line="23" Column="30" />
-      <File FileName="Assets/Script/StartLevelThree.cs" Line="8" Column="28" />
-      <File FileName="Assets/Script/Dialogue/DialogueManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="114" Column="22" />
+      <File FileName="Assets/Script/GameManager.cs" Line="21" Column="38" />
+      <File FileName="Assets/Script/Credits.cs" Line="3" Column="47" />
+      <File FileName="Assets/Script/!Level1/StartLevelTwo.cs" Line="15" Column="9" />
+      <File FileName="Assets/Script/StartLevelThree.cs" Line="11" Column="38" />
+      <File FileName="Assets/Script/Dialogue/DialogueManager.cs" />
       <File FileName="Assets/Script/!Level1/DoorTeleporter.cs" />
-      <File FileName="Assets/Script/Enemy.cs" />
+      <File FileName="Assets/Art/Coins/Coins.png.meta" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,16 +21,16 @@
               <Node name="Script" expanded="True">
                 <Node name="!Level1" expanded="True" />
                 <Node name="Dialogue" expanded="True" />
+                <Node name="Credits.cs" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1c3f8c7d-6422-4f7c-a5a7-a721cb31836c" />
 </Properties>

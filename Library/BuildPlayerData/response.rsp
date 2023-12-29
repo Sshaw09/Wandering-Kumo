@@ -7,6 +7,7 @@
 -a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/UnityEngine.UI.dll"
 -a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/Unity.Mathematics.dll"
 -a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll"
+-a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/Cinemachine.dll"
 -a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll"
 -a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll"
 -a="/Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll"
