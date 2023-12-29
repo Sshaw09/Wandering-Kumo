@@ -8,14 +8,16 @@ public class StartLevelThree : MonoBehaviour
     public GameObject text;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(PlayerController.score2 == 10)
+        if(PlayerController.score2 >= 10)
         {
             SceneManager.LoadScene("1 TitleScreen");
+            Debug.Log("Good");
 
         }
         else
         {
             text.SetActive(true);
+            Debug.Log("bad");
         }
     }
 

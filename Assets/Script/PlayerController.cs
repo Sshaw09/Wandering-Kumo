@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Slime"))
         {
-            Debug.Log("Debug.Log(\"Youbeenhitbyyouhitbyasmmooth\");");
+            SceneManager.LoadScene("4 Level2.5");
         }
     }
 

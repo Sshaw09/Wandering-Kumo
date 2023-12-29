@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,8 +17,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI magicText;
     public GameObject[] menuScreen;
-    public ParticleSystem teleport;
     public GameObject ruinMaster;
+    public AudioSource teleportSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,7 +69,7 @@ public class GameManager : MonoBehaviour
         Destroy(leftBorder);
     }
 
-    public void QuiGame()
+    public void QuitGame()
     {
         Application.Quit();
         Debug.Log("QUIT");
@@ -90,14 +91,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void TeleportAnimation()
-    {
-        teleport.Play();
-    }
-
     public void DestroyRuinMaster()
     {
         PlayerController.score2++;
     }
+
+    public void TPSound()
+    {
+        teleportSound.Play();
+    }
+
 }
 
