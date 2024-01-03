@@ -113,6 +113,11 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("4 Level2.5");
         }
+
+        if (collision.gameObject.CompareTag("Arrow"))
+        {
+            SceneManager.LoadScene("0 Pre-level");
+        }
     }
 
 
