@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
+    //Makes the slime move and switch direction after a certain time
     void Update()
     {
         changeTime -= Time.deltaTime;
@@ -30,7 +31,8 @@ public class Enemy : MonoBehaviour
         position.x = position.x + Time.deltaTime * speed * direction;
         transform.position = position;
     }
-
+    //When the player uses magic, the slimes dies
+    //RIP Slime 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (GameObject.FindGameObjectWithTag("Projectile"))

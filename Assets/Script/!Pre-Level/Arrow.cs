@@ -14,6 +14,7 @@ public class Arrow : MonoBehaviour
     }
 
     // Update is called once per frame
+    //Makes the arrow move left on the x-axis
     void Update()
     {
         Vector2 position = transform.position;
@@ -21,6 +22,7 @@ public class Arrow : MonoBehaviour
         transform.position = position;
     }
 
+    //Arrows detroys itself when it hits the dirt titles
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Dirt"))

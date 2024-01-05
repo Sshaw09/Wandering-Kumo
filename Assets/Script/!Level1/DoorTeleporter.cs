@@ -22,7 +22,8 @@ public class DoorTeleporter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //Checks if people clicks E && is standing infront of the dorr
+        //Teleports them to the other door
         if (Input.GetKeyDown(KeyCode.E) && playerDoorDetected)
         {
             player.transform.position = posToGo.position;
@@ -33,6 +34,7 @@ public class DoorTeleporter : MonoBehaviour
 
     }
 
+    //Uses Trigger to detect player && Actives UI
     private void OnTriggerEnter2D(Collider2D other) {
         
         if (other.CompareTag("Player")){
@@ -41,7 +43,7 @@ public class DoorTeleporter : MonoBehaviour
             text.SetActive(true);
         }
     }
-
+    //Uses Trigger to detect player not sure && Deactives UI
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player")){

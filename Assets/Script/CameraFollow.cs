@@ -10,6 +10,7 @@ public class CameraFollow : MonoBehaviour
 
     [SerializeField] Transform target;
     // Update is called once per frame
+    //Follows Player in game
     void Update()
     {
         Vector3 targetPosition = target.position + offset;

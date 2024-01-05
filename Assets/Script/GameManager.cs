@@ -29,8 +29,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
        OpenMenuScreen();
+
+       //Allows the score to update everytime a ruin is picked up
        scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
 
+        //Allows someone to show up when you collect 10 coins and despawn after
         if(PlayerController.score2 == 10)
         {
             ruinMaster.SetActive(true);
@@ -40,11 +43,13 @@ public class GameManager : MonoBehaviour
             ruinMaster.SetActive(false);
         }
 
+        //Lets the player know to head to the top right
         if(PlayerController.score2 >= 10){
             scoreText.text = "Head to the top right";
         }
     }
 
+    //Opens the MenuScreen
     void OpenMenuScreen()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -59,22 +64,26 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Allows player to use magic (Used in Wizard)
     public void ProjectileCheck()
     {
         projectileActive = true;
     }
 
+    //Allows player to talk to the wizard (Used in Jack)
     public void DestroyBorder()
     {
         Destroy(leftBorder);
     }
 
+    //Allows players to quit the game :( (Used in MenuScreen)
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("QUIT");
     }
 
+    //Allows certain objects to not be in scene when game is paused (Used in MenuScreen)
     public void DeactivateGameObjects()
     {
         foreach (GameObject go in menuScreen)
@@ -83,6 +92,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Reactivates obejects in screen
     public void activateGameObjects()
     {
         foreach (GameObject go in menuScreen)
@@ -91,11 +101,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Detroys end person 
     public void DestroyRuinMaster()
     {
         PlayerController.score2++;
     }
 
+    //Plays the teleport sound (Used by Ruin Master && Shadow)
     public void TPSound()
     {
         teleportSound.Play();

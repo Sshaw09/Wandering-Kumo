@@ -8,6 +8,8 @@ using static UnityEngine.GraphicsBuffer;
 
 public class WestBorder : MonoBehaviour
 {
+    //This whole code is to prevent the player from reaching the wizard before talking to Jack
+    //If the player tries to go left, the UI activates and turning off when player not there 
     [SerializeField] GameObject text;
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -6,6 +6,7 @@ public class Note : MonoBehaviour
 {
     [SerializeField] GameObject text;
 
+    //Activates Note UI inside starting room 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))

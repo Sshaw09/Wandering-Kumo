@@ -112,6 +112,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Slime"))
         {
             SceneManager.LoadScene("4 Level2.5");
+            score2 = 0;
         }
 
         if (collision.gameObject.CompareTag("Arrow"))
