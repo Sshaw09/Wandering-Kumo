@@ -14,10 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] public static bool projectileActive = false;
     public GameObject leftBorder;
     [SerializeField] AudioSource musicSource;
-    public TextMeshProUGUI scoreText;
     public TextMeshProUGUI magicText;
     public GameObject[] menuScreen;
-    public GameObject ruinMaster;
     public AudioSource teleportSound;
     // Start is called before the first frame update
     void Start()
@@ -29,24 +27,6 @@ public class GameManager : MonoBehaviour
     void Update()
     {
        OpenMenuScreen();
-
-       //Allows the score to update everytime a ruin is picked up
-       scoreText.text = PlayerController.score2.ToString() + "/ 10 Coins";
-
-        //Allows someone to show up when you collect 10 coins and despawn after
-        if(PlayerController.score2 == 10)
-        {
-            ruinMaster.SetActive(true);
-        }
-        else
-        {
-            ruinMaster.SetActive(false);
-        }
-
-        //Lets the player know to head to the top right
-        if(PlayerController.score2 >= 10){
-            scoreText.text = "Head to the top right";
-        }
     }
 
     //Opens the MenuScreen
@@ -113,5 +93,9 @@ public class GameManager : MonoBehaviour
         teleportSound.Play();
     }
 
+    public void GainCrystal()
+    {
+        PlayerController.crystal++;
+    }
 }
 

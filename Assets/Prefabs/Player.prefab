@@ -144,8 +144,10 @@ MonoBehaviour:
   projectilePrefab: {fileID: 2192900174853071885, guid: f89d63564f9ad412685bea6368c0c47c, type: 3}
   launchOffset: {fileID: 1549607757406673718}
   projectileSound: {fileID: 690272993}
-  door: {fileID: 0}
-  titleScreen: {fileID: 0}
+  coinSound: {fileID: 0}
+  hearts: []
+  fullHealth: {fileID: 0}
+  emptyHealth: {fileID: 0}
 --- !u!70 &1549607758446341065
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

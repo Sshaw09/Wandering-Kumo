@@ -11,6 +11,9 @@ TagManager:
   - Projectile
   - Slime
   - Ruin Master
+  - Arrow
+  - Slime3
+  - Crystal
   layers:
   - Default
   - TransparentFX
@@ -19,9 +22,9 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
+  - Enemy
+  - Player
+  - Projectile
   - 
   - 
   - 

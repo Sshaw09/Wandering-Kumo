@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1578700720119944613}
   - component: {fileID: 1578700720119944612}
   - component: {fileID: 1578700720119944609}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Slime
   m_TagString: Slime
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1578700720119944609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,5 +168,3 @@ MonoBehaviour:
   direction: 1
   timer: 5
   changeTime: 3
-  posToGo: {fileID: 0}
-  offset: {fileID: 0}

@@ -25,6 +25,12 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Physics2D.IgnoreLayerCollision(8, 9);
+        }
+
+
         if (collision.gameObject.CompareTag("Ruin"))
         {
             Destroy(collision.gameObject);

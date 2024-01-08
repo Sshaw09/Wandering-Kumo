@@ -36,13 +36,24 @@ public class PlayerController : MonoBehaviour
     [Header("*Level 2*")] //For Level2
     [SerializeField] public static int score2;
     [SerializeField] AudioSource coinSound;
+
+    //Level3
+    public static int crystal;
+    [SerializeField] AudioSource crystalSound;
+
     // Start is called before the first frame update
+    private void Awake()
+    {
+        crystal = 0;
+    }
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
         playerSprite = GetComponent<SpriteRenderer>();
     }
 
+    
     // Update is called once per frame
     void Update()
     {
@@ -70,6 +81,8 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Speed", velocity.sqrMagnitude);
         animator.SetBool("IsJumping", !isTouchingGround);
 
+        
+
         //Methods
         Jump();
     }
@@ -88,22 +101,41 @@ public class PlayerController : MonoBehaviour
 
     public void Launch()
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, transform.position, transform.rotation);
+        GameObject projectileObject = Instantiate(projectilePrefab, launchOffset.position, transform.rotation);
         projectileObject.GetComponent<Rigidbody2D>().velocity = lookDirection * projectileSpeed;
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 1000);
         projectileSound.Play();
     }
 
-    //For Level 2
+    //For Level 3
+    IEnumerator GetHurt()
+    {
+        Physics2D.IgnoreLayerCollision(7, 8);
+        GetComponent<Animator>().SetLayerWeight(1, 1);
+        yield return new WaitForSeconds(3);
+        GetComponent<Animator>().SetLayerWeight(1, 0);
+        Physics2D.IgnoreLayerCollision(7, 8, false);
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //For Level 2
+        //Crystal
         if (collision.gameObject.CompareTag("Coin"))
         {
             score2++;
-            Debug.Log(score2);
             Destroy(collision.gameObject);
             coinSound.Play();
+        }
+
+        if (collision.gameObject.CompareTag("Crystal"))
+        {
+            crystal++;
+            Debug.Log(crystal);
+            Destroy(collision.gameObject);
+            crystalSound.Play();
         }
     }
 
