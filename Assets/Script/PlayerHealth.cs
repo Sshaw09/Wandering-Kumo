@@ -6,14 +6,14 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public static int health = 3;
+    public static int health = 2;
     public Image[] hearts;
     public Sprite fullHealth;
     public Sprite emptyHealth;
     public AudioSource hurtSound;
     private void Awake()
     {
-        health = 3;
+        health = 2;
     }
 
     // Update is called once per frame
