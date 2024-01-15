@@ -12477,6 +12477,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1549607758446341065, guid: b5dcbc5ca1b654e139060961d79fb189, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: cdd6d2d59a17b4e6d8969919b292176c, type: 2}
     - target: {fileID: 1549607758446341068, guid: b5dcbc5ca1b654e139060961d79fb189, type: 3}
       propertyPath: door
       value: 
@@ -12537,6 +12541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1549607758446341107, guid: b5dcbc5ca1b654e139060961d79fb189, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: cdd6d2d59a17b4e6d8969919b292176c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5dcbc5ca1b654e139060961d79fb189, type: 3}
 --- !u!1 &489968763
@@ -14514,11 +14522,9 @@ MonoBehaviour:
   menu: {fileID: 130167798}
   leftBorder: {fileID: 307430591}
   musicSource: {fileID: 0}
-  scoreText: {fileID: 831471039}
   magicText: {fileID: 831471039}
   menuScreen:
   - {fileID: 861324795}
-  ruinMaster: {fileID: 307430591}
   teleportSound: {fileID: 0}
 --- !u!4 &1528649054
 Transform:
@@ -17136,7 +17142,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 2143903297}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: cdd6d2d59a17b4e6d8969919b292176c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

@@ -15,10 +15,9 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
 
     [Header("*Ground Check*")] //Variables for GroundCheck (Stops player from double jumping)
-    public Transform groundCheck;
-    private float groundCheckRadius = 0.5f; //Change when player sprite is added
+    Vector2 boxCheck = new Vector2(0.6f, 0.15f);
+    float castDistance = 1.35f;
     public LayerMask groundLayer;
-    public bool isTouchingGround;
 
     [Header("*Animation*")] //Animation Variables
     public Animator animator;
@@ -79,24 +78,44 @@ public class PlayerController : MonoBehaviour
         //Animation
         animator.SetFloat("Horizontal", horizontalInput);
         animator.SetFloat("Speed", velocity.sqrMagnitude);
-        animator.SetBool("IsJumping", !isTouchingGround);
+        animator.SetBool("IsJumping", !isGrounded());
 
         
 
         //Methods
         Jump();
+
+        Physics2D.IgnoreLayerCollision(8, 9);
     }
+
+
 
     void Jump()
     {
-        //Checks if the player is touching the ground 
-        isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
         //Uses the W Key & Up Arrow to Jump
-        if (isTouchingGround && Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && isTouchingGround)
+        if (isGrounded() && Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && isGrounded())
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, jumpSpeed);
         }
+    }
+
+    //GroundCheck
+    public bool isGrounded()
+    {
+        if (Physics2D.BoxCast(transform.position, boxCheck, 0, -transform.up, castDistance, groundLayer))
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(transform.position-transform.up * castDistance, boxCheck);
     }
 
     public void Launch()

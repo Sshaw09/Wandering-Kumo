@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class StartLevelThree : MonoBehaviour
 {
+    public Animator transitionAnim;
     public GameObject text;
     //If player has 10 coins, they are sent to level 3
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(PlayerController.score2 >= 10)
         {
-            SceneManager.LoadScene("5 Level3");
+            StartCoroutine(LoadScene());
         }
         else
         {
@@ -22,5 +23,12 @@ public class StartLevelThree : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         text.SetActive(false);
+    }
+
+    IEnumerator LoadScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene("5 Level3");
     }
 }
