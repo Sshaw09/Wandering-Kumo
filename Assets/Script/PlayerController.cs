@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && GameManager.projectileActive)
         {
-            Launch(); 
+            StartCoroutine(LaunchMagic());
         }
 
         //Animation
@@ -128,13 +128,13 @@ public class PlayerController : MonoBehaviour
     }
 
     //For Level 3
-    IEnumerator GetHurt()
+    IEnumerator LaunchMagic()
     {
-        Physics2D.IgnoreLayerCollision(7, 8);
-        GetComponent<Animator>().SetLayerWeight(1, 1);
-        yield return new WaitForSeconds(3);
-        GetComponent<Animator>().SetLayerWeight(1, 0);
-        Physics2D.IgnoreLayerCollision(7, 8, false);
+        Launch();
+        GameManager.projectileActive = false;
+        yield return new WaitForSeconds(0.5f);
+        GameManager.projectileActive = true;
+        
     }
 
 

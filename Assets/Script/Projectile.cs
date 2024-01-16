@@ -37,6 +37,12 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if (collision.gameObject.CompareTag("Slime3"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
+
+    
     
 }

@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHealth;
     public Sprite emptyHealth;
     public AudioSource hurtSound;
+    public GameObject gameOver;
     private void Awake()
     {
         health = 2;
@@ -31,7 +32,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (health == 0)
         {
-            SceneManager.LoadScene("5 Level3");
+            gameOver.SetActive(true);
         }
         else
         {
@@ -52,6 +53,19 @@ public class PlayerHealth : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Slime3"))
         {
+            health--;
+            hurtSound.Play();
+        }
+
+        if (collision.gameObject.CompareTag("Boss"))
+        {
+            health--;
+            hurtSound.Play();
+        }
+
+        if (collision.gameObject.CompareTag("BArrow"))
+        {
+            Destroy(collision.gameObject);
             health--;
             hurtSound.Play();
         }

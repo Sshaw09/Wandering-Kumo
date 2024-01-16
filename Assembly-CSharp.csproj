@@ -123,6 +123,9 @@
     <Compile Include="Assets/Script/!Pre-Level/ArrowDown.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
     <Compile Include="Assets/Script/SceneTransitions.cs" />
+    <Compile Include="Assets/Script/GameOver.cs" />
+    <Compile Include="Assets/Script/Golem.cs" />
+    <Compile Include="Assets/Script/MagicForward.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
