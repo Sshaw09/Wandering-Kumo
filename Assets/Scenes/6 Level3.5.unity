@@ -9611,7 +9611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 391899402}
-  sceneName: 7 Boss
+  sceneName: 7 BOSS!
 --- !u!1 &1115019440
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,6 +36,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public static int score2;
     [SerializeField] AudioSource coinSound;
 
+    [Header("*Death")] //For Death Screen
+    public GameObject gameOver;
+
     //Level3
     public static int crystal;
     [SerializeField] AudioSource crystalSound;
@@ -152,7 +155,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Crystal"))
         {
             crystal++;
-            Debug.Log(crystal);
             Destroy(collision.gameObject);
             crystalSound.Play();
         }
@@ -168,7 +170,7 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Arrow"))
         {
-            SceneManager.LoadScene("0 Pre-level");
+            gameOver.SetActive(true);
         }
     }
 

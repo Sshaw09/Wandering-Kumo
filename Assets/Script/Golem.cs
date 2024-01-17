@@ -5,10 +5,16 @@ using UnityEngine.UI;
 
 public class Golem : MonoBehaviour
 {
-    int health = 30;
+    [Header("*Health*")]
+    public static int Bosshealth = 30;
     public Slider healthBar;
-    public GameObject slime;
+
+    [Header("*Health")]
     bool isAlive;
+    bool platformCheck;
+
+    [Header("*Objects*")]
+    public GameObject slime;
     public GameObject boss;
     [SerializeField] Transform spawnLeft;
     [SerializeField] Transform spawnRight;
@@ -16,7 +22,13 @@ public class Golem : MonoBehaviour
     [SerializeField] GameObject arrow;
     [SerializeField] GameObject platform;
     [SerializeField] GameObject platform1;
+    [SerializeField] GameObject bg;
     public ParticleSystem death;
+    public Transform slimeP;
+
+    [Header("*Audio*")]
+    [SerializeField] AudioSource hurt;
+    [SerializeField] AudioSource slimeAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,45 +40,29 @@ public class Golem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthBar.value = health;
-
-        if (health == 0)
+        healthBar.value = Bosshealth;
+        if (Bosshealth == 0)
         {
             isAlive = false;
             boss.SetActive(false);
-            Destroy(healthBar);
+            healthBar.gameObject.SetActive(false);
             death.Play();
-            Debug.Log("Blud is died, RIP BOZO");
+            platform.SetActive(false);
+            platform1.SetActive(false);
+            slimeP.gameObject.SetActive(false);
+            bg.SetActive(false);
         }
+
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Projectile"))
         {
-            health--;
-            Debug.Log(health);
-        }
-    }
-
-    private IEnumerator BossActionRoutine()
-    {
-        while (isAlive)
-        {
-            float randomAction = Random.Range(0f, 1f);
-            float randomArrow = Random.Range(0f, 5f);
-            Debug.Log(randomAction);
-            if (randomAction < 0.5f)
-            {
-                SpawnSlimes();
-                //SpawnArrow();
-            }
-            else
-            {
-                StartCoroutine(MakePlatformDisappear());
-            }
-
-            yield return new WaitForSeconds(Random.Range(5f, 7f));
+            Bosshealth--;
+            hurt.Play();
+            Debug.Log(Bosshealth);
         }
     }
 
@@ -74,20 +70,41 @@ public class Golem : MonoBehaviour
     {
         platform.SetActive(false);
         platform1.SetActive(false);
-        yield return new WaitForSeconds(3f); 
+        yield return new WaitForSeconds(3f);
         platform.SetActive(true);
         platform1.SetActive(true);
     }
 
     private void SpawnSlimes()
     {
-        Debug.Log("Spawn Slimes");
-        Instantiate(slime, spawnLeft.position, Quaternion.identity);
-        Instantiate(slime, spawnRight.position, Quaternion.identity);
+        slimeAudio.Play();
+
+        GameObject slimeLeft =  Instantiate(slime, spawnLeft.position, Quaternion.identity);
+        GameObject slimeRight = Instantiate(slime, spawnRight.position, Quaternion.identity);
+
+        slimeLeft.transform.SetParent(slimeP);
+        slimeRight.transform.SetParent(slimeP);
     }
 
-    private void SpawnArrow()
+    private IEnumerator BossActionRoutine()
     {
-        Instantiate(arrow, spawnMiddle.position, Quaternion.identity);
+        while (isAlive)
+        {
+            float randomAction = Random.Range(0f, 1f);
+            if (randomAction < 0.5f)
+            {
+                SpawnSlimes();
+            }
+            else
+            {
+                StartCoroutine(MakePlatformDisappear());
+            }
+
+            yield return new WaitForSeconds(Random.Range(3f, 5f));
+        }  
     }
-}
+
+}   
+
+   
+

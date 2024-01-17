@@ -454,7 +454,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Lead Programmer \n\nLead Designer\n\nLead Writer\n\nPlay Testers\n\nLevel
     1 & 3 Title Palette\n\nLevel 2 Title Palette\n\nLevel 2 Coins\n\nNPCs Art\n\nBackground
-    Art\n\nDialogue\n\nOutro Music\n\n\n\n"
+    Art\n\nDialogue System\n\nDialogue Audio\n\nOutro Music\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bca0f56dd7d874c1fbd27936c255954d, type: 2}
   m_sharedMaterial: {fileID: 6103828513315208433, guid: bca0f56dd7d874c1fbd27936c255954d, type: 2}
@@ -1209,7 +1209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: -1978}
+  m_AnchoredPosition: {x: 25, y: -2159}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887648117
@@ -1627,7 +1627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -237, y: -2681}
+  m_AnchoredPosition: {x: -237, y: -2862}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103425275
@@ -1761,7 +1761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 357, y: -2380}
+  m_AnchoredPosition: {x: 357, y: -2561}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1598771235
@@ -1897,7 +1897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -53, y: -2878}
+  m_AnchoredPosition: {x: -53, y: -3059}
   m_SizeDelta: {x: 484.455, y: 107.8433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1691292372
@@ -2348,6 +2348,9 @@ MonoBehaviour:
 
 
     HeneGame
+
+
+    ElevenLabs
 
 
     X3nus

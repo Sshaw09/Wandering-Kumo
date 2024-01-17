@@ -70,6 +70,7 @@
     <Compile Include="Assets/Script/CameraFollow.cs" />
     <Compile Include="Assets/Script/!Level3/FireTrigger.cs" />
     <Compile Include="Assets/Script/Enemy.cs" />
+    <Compile Include="Assets/Script/Golem.cs" />
     <Compile Include="Assets/Script/!Level1/WestBorder.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets/Script/!Level1/StartLevelTwo.cs" />
     <Compile Include="Assets/Script/StartLevelThree_Five.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/Script/SceneTransitions.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Script/Dialogue/DialogueTrigger.cs" />
@@ -85,7 +87,9 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/Script/PlayCredits.cs" />
     <Compile Include="Assets/Script/Credits.cs" />
+    <Compile Include="Assets/Script/GameOver.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/Script/MagicForward.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/Script/TitleScreen.cs" />
@@ -122,10 +126,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/Script/!Pre-Level/ArrowDown.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/Script/SceneTransitions.cs" />
-    <Compile Include="Assets/Script/GameOver.cs" />
-    <Compile Include="Assets/Script/Golem.cs" />
-    <Compile Include="Assets/Script/MagicForward.cs" />
+    <Compile Include="Assets/Script/BossLevelManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

@@ -16,6 +16,8 @@ TagManager:
   - Crystal
   - Boss
   - BArrow
+  - Shield
+  - Shadow
   layers:
   - Default
   - TransparentFX

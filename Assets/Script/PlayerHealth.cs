@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     public Sprite emptyHealth;
     public AudioSource hurtSound;
     public GameObject gameOver;
+
+    public GameObject[] deathObjects;
     private void Awake()
     {
         health = 2;
@@ -32,6 +34,11 @@ public class PlayerHealth : MonoBehaviour
 
         if (health == 0)
         {
+            foreach (GameObject go in deathObjects)
+            {
+                go.SetActive(false);
+            }
+
             gameOver.SetActive(true);
         }
         else
@@ -63,11 +70,5 @@ public class PlayerHealth : MonoBehaviour
             hurtSound.Play();
         }
 
-        if (collision.gameObject.CompareTag("BArrow"))
-        {
-            Destroy(collision.gameObject);
-            health--;
-            hurtSound.Play();
-        }
     }
 }

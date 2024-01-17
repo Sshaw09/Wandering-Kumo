@@ -1,44 +1,37 @@
-﻿<Properties StartupConfiguration="{645CCC6A-BD58-912D-E24B-33C300C9AC5F}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b5c0a478-439c-4579-936c-5f311244c864" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Projectile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Golem.cs">
     <Files>
-      <File FileName="Assets/Script/PlayerController.cs" />
-      <File FileName="Assets/Script/PlayerHealth.cs" />
-      <File FileName="Assets/Script/Enemy.cs" />
-      <File FileName="Assets/Script/StartLevelThree.cs" Line="14" Column="48" />
-      <File FileName="Assets/Script/Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/GameManager.cs" />
-      <File FileName="Assets/Script/Level2Manager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Level3Manager.cs" Line="35" Column="36" />
-      <File FileName="Assets/PlayCredits.cs" Line="10" Column="42" />
-      <File FileName="Assets/Script/TitleScreen.cs" Line="18" Column="5" />
-      <File FileName="Assets/Script/Credits.cs" Line="11" Column="20" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="174" Column="38" />
+      <File FileName="Assets/Script/PlayerHealth.cs" Line="35" Column="38" />
+      <File FileName="Assets/Script/!Level3/FollowPlayer.cs" />
+      <File FileName="Assets/Script/Projectile.cs" Line="10" Column="29" />
+      <File FileName="Assets/Script/Enemy.cs" Line="41" Column="33" />
+      <File FileName="Assets/Script/GameOver.cs" />
+      <File FileName="Assets/Script/!Pre-Level/Arrow.cs" Line="9" Column="12" />
+      <File FileName="Assets/Script/StartLevelThree.cs" Line="30" Column="16" />
+      <File FileName="Assets/Script/Golem.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Wandering Kumo" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Script" expanded="True">
-                <Node name="!Level3" expanded="True" />
-                <Node name="Dialogue" expanded="True" />
-                <Node name="Projectile.cs" selected="True" />
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Script" expanded="True">
+                  <Node name="Golem.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1c3f8c7d-6422-4f7c-a5a7-a721cb31836c" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

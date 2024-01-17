@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public float changeTime = 3;
     Rigidbody2D rb;
     Animator animator;
+    public AudioSource deathSound;
     // Start is called before the first frame update
     void Start()
     {
