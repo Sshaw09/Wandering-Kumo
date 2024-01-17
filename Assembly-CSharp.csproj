@@ -87,6 +87,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/Script/PlayCredits.cs" />
     <Compile Include="Assets/Script/Credits.cs" />
+    <Compile Include="Assets/Script/BossLevelManager.cs" />
     <Compile Include="Assets/Script/GameOver.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/Script/MagicForward.cs" />
@@ -126,7 +127,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/Script/!Pre-Level/ArrowDown.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/Script/BossLevelManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

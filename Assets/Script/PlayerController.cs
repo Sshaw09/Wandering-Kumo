@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
     [Header("*Death")] //For Death Screen
     public GameObject gameOver;
 
+    public Vector2 velocity;
     //Level3
     public static int crystal;
     [SerializeField] AudioSource crystalSound;
@@ -55,14 +56,22 @@ public class PlayerController : MonoBehaviour
         playerSprite = GetComponent<SpriteRenderer>();
     }
 
-    
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         //Left & Right Movement
         horizontalInput = Input.GetAxis("Horizontal");
         Vector2 velocity = new Vector2(horizontalInput * speed, playerRb.velocity.y);
         playerRb.velocity = velocity;
+
+        animator.SetFloat("Horizontal", horizontalInput);
+        animator.SetFloat("Speed", velocity.sqrMagnitude);
+        animator.SetBool("IsJumping", !isGrounded());
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
 
         // Set which direction the player is looking
         Vector2 move = new Vector2(horizontalInput, 0);
@@ -79,9 +88,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //Animation
-        animator.SetFloat("Horizontal", horizontalInput);
-        animator.SetFloat("Speed", velocity.sqrMagnitude);
-        animator.SetBool("IsJumping", !isGrounded());
+        
 
         
 
