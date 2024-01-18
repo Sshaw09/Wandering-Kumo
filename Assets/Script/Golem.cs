@@ -32,6 +32,7 @@ public class Golem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Bosshealth = 30;
         GameManager.projectileActive = true;
         isAlive = true;
         StartCoroutine(BossActionRoutine());

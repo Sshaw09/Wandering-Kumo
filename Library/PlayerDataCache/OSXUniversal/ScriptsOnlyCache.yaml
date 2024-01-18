@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - ArrowDown
     - Background
     - BossLevelManager
-    - CameraFollow
     - Death
     - DoorTeleporter
     - Enemy
@@ -33,12 +32,19 @@ ScriptsOnlyBuild:
     - TitleScreen
     - TriggerTitleScreen
     - WestBorder
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineFramingTransposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineVirtualCamera
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -61,8 +67,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -129,15 +137,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1914}
     - Class: 114
-      Script: {instanceID: 2224}
-    - Class: 114
       Script: {instanceID: 2344}
     - Class: 114
+      Script: {instanceID: 2768}
+    - Class: 114
       Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2914}
     - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3076}
+    - Class: 114
+      Script: {instanceID: 3120}
     - Class: 114
       Script: {instanceID: 3276}
     - Class: 114
@@ -150,6 +162,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3850}
     - Class: 114
       Script: {instanceID: 4122}
+    - Class: 114
+      Script: {instanceID: 4276}
     - Class: 114
       Script: {instanceID: 4862}
     - Class: 114
@@ -303,17 +317,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2224}
-    - Class: 114
       Script: {instanceID: 2566}
     - Class: 114
+      Script: {instanceID: 2768}
+    - Class: 114
       Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2914}
     - Class: 114
       Script: {instanceID: 2998}
     - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3076}
+    - Class: 114
+      Script: {instanceID: 3120}
     - Class: 114
       Script: {instanceID: 3140}
     - Class: 114
@@ -326,6 +344,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3686}
     - Class: 114
       Script: {instanceID: 3850}
+    - Class: 114
+      Script: {instanceID: 4276}
     - Class: 114
       Script: {instanceID: 4426}
     - Class: 114
@@ -416,15 +436,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2224}
-    - Class: 114
       Script: {instanceID: 2518}
     - Class: 114
+      Script: {instanceID: 2768}
+    - Class: 114
       Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2914}
     - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3076}
+    - Class: 114
+      Script: {instanceID: 3120}
     - Class: 114
       Script: {instanceID: 3276}
     - Class: 114
@@ -435,6 +459,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3686}
     - Class: 114
       Script: {instanceID: 3850}
+    - Class: 114
+      Script: {instanceID: 4276}
     - Class: 114
       Script: {instanceID: 4646}
     - Class: 114
@@ -523,15 +549,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2224}
+      Script: {instanceID: 2768}
     - Class: 114
       Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2914}
     - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3076}
     - Class: 114
       Script: {instanceID: 3092}
+    - Class: 114
+      Script: {instanceID: 3120}
     - Class: 114
       Script: {instanceID: 3276}
     - Class: 114
@@ -542,6 +572,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3686}
     - Class: 114
       Script: {instanceID: 3850}
+    - Class: 114
+      Script: {instanceID: 4276}
     - Class: 114
       Script: {instanceID: 4646}
     - Class: 114
@@ -634,17 +666,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2224}
-    - Class: 114
       Script: {instanceID: 2480}
     - Class: 114
       Script: {instanceID: 2518}
     - Class: 114
+      Script: {instanceID: 2768}
+    - Class: 114
       Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2914}
     - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3076}
+    - Class: 114
+      Script: {instanceID: 3120}
     - Class: 114
       Script: {instanceID: 3140}
     - Class: 114
@@ -659,6 +695,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3850}
     - Class: 114
       Script: {instanceID: 4122}
+    - Class: 114
+      Script: {instanceID: 4276}
     - Class: 114
       Script: {instanceID: 4646}
     - Class: 114
@@ -1123,7 +1161,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 03a5bced2e501147ce68cac5ec59f032
+      Hash: 74cfca0ec9e126ef03f29ed7e02dfad0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TriggerTitleScreen
@@ -1157,12 +1195,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineCollider
-  - hash:
-      serializedVersion: 2
-      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraFollow
   - hash:
       serializedVersion: 2
       Hash: 15882a52798c275361cd0a3ada984ec5
@@ -1573,7 +1605,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 2e20d1a1dac14f0e42f3881f61dfaa59
+      Hash: a7d5c090d1b6162ec05f508a9955f4af
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BossLevelManager
@@ -2200,4 +2232,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/6 Level3.5.unity
   - Assets/Scenes/7 BOSS!.unity
   - Assets/Scenes/8 Credits.unity
-  playerPath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Builds/v.05.app
+  playerPath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Builds/v.13.app

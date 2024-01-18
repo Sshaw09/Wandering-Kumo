@@ -8,9 +8,10 @@ using UnityEngine.UIElements;
 public class BossLevelManager : MonoBehaviour
 {
     [SerializeField] GameObject shadow;
-    public float countdownTime = 10f;
-    bool shadowCheck = false;
-    private Coroutine ShadowSpawn;
+    public float countdownTime = 10;
+    public AudioSource deathSound;
+    private bool deathSoundPlayed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,16 +21,13 @@ public class BossLevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Golem.Bosshealth == 0)
+        if (Golem.Bosshealth == 0 && !deathSoundPlayed)
         {
-            ShadowSpawn = StartCoroutine(CountdownAndSpawnShadow());
+            StartCoroutine(CountdownAndSpawnShadow());
+            deathSound.Play();
+            deathSoundPlayed = true;
         }
 
-        if (shadowCheck)
-        {
-            StopCoroutine(ShadowSpawn);
-            Debug.Log("STOPPED");
-        }
     }
 
     IEnumerator CountdownAndSpawnShadow()
@@ -45,6 +43,5 @@ public class BossLevelManager : MonoBehaviour
 
         Debug.Log(timer);
         shadow.SetActive(true);
-        shadowCheck = true;
     }
 }
