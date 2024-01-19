@@ -18,6 +18,11 @@ public class SceneTransitions : MonoBehaviour
         StartCoroutine(LoadScene());
     }
 
+    public void GetScene()
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     IEnumerator LoadScene()
     {
         transitionAnim.SetTrigger("end");

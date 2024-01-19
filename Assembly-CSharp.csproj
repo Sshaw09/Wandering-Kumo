@@ -120,13 +120,13 @@
     <Compile Include="Assets/Script/Dialogue/DialogueManager.cs" />
     <Compile Include="Assets/Script/!Level3/Death.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/Script/FlameFollow.cs" />
     <Compile Include="Assets/Script/GameManager.cs" />
     <Compile Include="Assets/Script/!Pre-Level/ShootArrow.cs" />
     <Compile Include="Assets/Script/!Level1/DoorTeleporter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/Script/!Pre-Level/ArrowDown.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/Script/FlameFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
