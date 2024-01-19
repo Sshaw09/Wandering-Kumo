@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - DoorTeleporter
     - Enemy
     - FireTrigger
+    - FlameFollow
     - FollowPlayer
     - GameManager
     - GameOver
@@ -44,7 +45,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -702,8 +702,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4772}
     - Class: 114
-      Script: {instanceID: 4870}
-    - Class: 114
       Script: {instanceID: 5288}
     - Class: 114
       Script: {instanceID: 5960}
@@ -711,6 +709,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5970}
     - Class: 114
       Script: {instanceID: 6084}
+    - Class: 114
+      Script: {instanceID: 194928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2221,6 +2221,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 211cbb6a4e0f9dd4f7a8ca421df23dc7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlameFollow
   platform: 2
   scenePathNames:
   - Assets/Scenes/0 Pre-level.unity
@@ -2232,4 +2238,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/6 Level3.5.unity
   - Assets/Scenes/7 BOSS!.unity
   - Assets/Scenes/8 Credits.unity
-  playerPath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Builds/v.13.app
+  playerPath: /Users/stephenshaw/Desktop/Create with Code/Wandering Kumo/Builds/!!Final
+    Build.app

@@ -11869,7 +11869,7 @@ GameObject:
   - component: {fileID: 425144886}
   m_Layer: 6
   m_Name: Platform
-  m_TagString: Untagged
+  m_TagString: Dirt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18397,7 +18397,7 @@ GameObject:
   - component: {fileID: 1541201486}
   m_Layer: 6
   m_Name: Platform (1)
-  m_TagString: Untagged
+  m_TagString: Dirt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21023,7 +21023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6137675715472231957, guid: 61a672ddae6fa431a8f28ef7c9d8b3d0, type: 3}
       propertyPath: sentences.Array.data[8].sentence
-      value: 
+      value: Alright.
       objectReference: {fileID: 0}
     - target: {fileID: 6137675715472231957, guid: 61a672ddae6fa431a8f28ef7c9d8b3d0, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
@@ -21060,7 +21060,7 @@ PrefabInstance:
     - target: {fileID: 6137675715472231957, guid: 61a672ddae6fa431a8f28ef7c9d8b3d0, type: 3}
       propertyPath: sentences.Array.data[8].sentenceSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: d0b173d0780314c2d88e13e29752d6bf, type: 3}
     - target: {fileID: 6137675715472231957, guid: 61a672ddae6fa431a8f28ef7c9d8b3d0, type: 3}
       propertyPath: sentences.Array.data[1].dialogueCharacter
       value: 
@@ -21092,7 +21092,7 @@ PrefabInstance:
     - target: {fileID: 6137675715472231957, guid: 61a672ddae6fa431a8f28ef7c9d8b3d0, type: 3}
       propertyPath: sentences.Array.data[8].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: b8860bead14b64f4080073f1b4d8aaf9, type: 2}
+      objectReference: {fileID: 11400000, guid: 1fbb6b2e919334c07a248a01dadb12cb, type: 2}
     - target: {fileID: 6137675715472231957, guid: 61a672ddae6fa431a8f28ef7c9d8b3d0, type: 3}
       propertyPath: sentences.Array.data[0].sentenceEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
